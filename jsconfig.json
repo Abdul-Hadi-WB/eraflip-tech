@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".", // 关键：指定路径解析的基础目录为项目根目录
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  // 可选但推荐：排除构建输出和依赖目录，提升性能
+  "exclude": ["node_modules", ".next", "out", "build"]
+}
