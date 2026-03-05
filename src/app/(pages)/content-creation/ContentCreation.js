@@ -211,7 +211,7 @@ const ContentCreation = () => {
       </Button>
     </Link>
   </motion.div>
-</div>S
+</div>
             {/* RIGHT SIDE - IMAGE CONTAINER */}
             <motion.div 
               className="md:w-1/3 flex-shrink-0 w-full"
