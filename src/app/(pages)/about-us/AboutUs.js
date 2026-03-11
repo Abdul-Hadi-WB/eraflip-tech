@@ -316,7 +316,7 @@ export default function AboutUs() {
           }`}
         >
           <span className="block text-orange-500">INNOVATE</span>
-          TRANSFORM LEAD
+          BUILD GROW
         </h1>
       </div>
 
@@ -422,10 +422,7 @@ export default function AboutUs() {
             }`}
           >
             <p className="text-gray-600 mb-3 sm:mb-4 md:mb-6 leading-relaxed text-xs sm:text-sm md:text-base px-2 sm:px-0">
-              At Eraflip Tech, we're more than just a game studio; we're a global
-              powerhouse shaping the future of mobile entertainment. From modest
-              beginnings, we've fostered creativity and innovation, developing games
-              that resonate deeply with players across the globe.
+              Eraflip Tech is where we provide tech services game development, web development, software development, and digital solutions. Serving clients globally — with the best quality and commitment.
             </p>
           </div>
 
@@ -434,7 +431,7 @@ export default function AboutUs() {
             {[
               {
                 title: "Trust & Empowerment",
-                desc: "We empower our talented team to make impactful decisions, fueled by a shared entrepreneurial mindset and a culture of trust.",
+                desc: "We trust our team to take ownership of every project. We make decisions, solve problems, and deliver results with confidence. Our role is to support, not supervise. That's how great work gets built.",
                 icon: Shield,
                 color: "blue",
                 iconClass: "text-blue-500",
@@ -449,7 +446,7 @@ export default function AboutUs() {
               },
               {
                 title: "Unleashing Potential",
-                desc: "We believe in collaboration and shared knowledge, creating synergies that fuel growth across our ecosystem.",
+                desc: "Every project teaches us something. A smarter way to code. A better gaming mechanic. A design that just works. Each one shapes what we build next.",
                 icon: Rocket,
                 color: "orange",
                 iconClass: "text-orange-500",
@@ -464,7 +461,7 @@ export default function AboutUs() {
               },
               {
                 title: "Embracing Each Other",
-                desc: "We value inclusivity and respect, building a culture that celebrates each individual's contributions and fosters unity.",
+                desc: "We believe in growing together. New insights in tech, fresh ideas for games we don't keep them to ourselves. Pass it on, level up as a team.       ",
                 icon: Users,
                 color: "green",
                 iconClass: "text-green-500",
@@ -533,17 +530,16 @@ export default function AboutUs() {
           {/* Main Header */}
           <div className="text-center mb-6 sm:mb-8 md:mb-10 lg:mb-12 xl:mb-16">
             <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-gray-900 mb-3 sm:mb-4">
-              Empowering Great People, Great{" "}
-              <br className="hidden sm:block" /> Companies &{" "}
+              Empowering Talent, Growing {" "}
+              <br className="hidden sm:block" /> Businesses, {" "}
               <span className="text-transparent bg-gradient-to-r from-orange-500 via-orange-600 to-amber-600 bg-clip-text">
-                Great Ideas
+                Bringing Ideas to Life
               </span>
             </h2>
 
             <div className="max-w-full sm:max-w-2xl md:max-w-3xl mx-auto">
               <p className="text-gray-600 text-xs sm:text-sm md:text-base lg:text-lg leading-relaxed px-2 sm:px-4">
-                From the bustling hubs of Dubai and Bahrain to the heart of the US
-                innovation scene, our story is far from over.
+              From fixing tech problems to crafting immersive digital experiences  none of it happens without the right team. We put smart people together, trust them to own their work, and let ideas breathe. Some of our best games and smartest tech solutions came from that simple formula. That's the approach we bring to every client and every project. 
               </p>
             </div>
           </div>
@@ -567,7 +563,7 @@ export default function AboutUs() {
               {[
                 {
                   title: "Open-Mindedness",
-                  desc: "We embrace experimentation, take calculated risks, and encourage bold ideas to achieve exceptional outcomes.",
+                  desc: "Some ideas may seem unconventional at first  but true innovation rarely comes from playing it safe. Instead of rejecting bold thinking, we choose to explore it. We listen carefully, experiment confidently, and give ideas the space they need to evolve",
                   icon: <Trophy className="w-5 h-5 sm:w-6 sm:h-6 md:w-7 md:h-7 text-white" />,
                   cardGradient:
                     "linear-gradient(145deg, rgba(254, 243, 199, 0.9) 0%, rgba(255, 237, 213, 0.95) 50%, rgba(254, 215, 170, 0.9) 100%)",
@@ -582,7 +578,7 @@ export default function AboutUs() {
                 },
                 {
                   title: "Responsibility",
-                  desc: "We approach every task with dedication and strive to deliver excellence in everything we create.",
+                  desc: "Simple rule we do what we say. Website or game, big or small if we promised it, we deliver it. On time, no excuses. Because your trust matters more than anything.",
                   icon: <Star className="w-5 h-5 sm:w-6 sm:h-6 md:w-7 md:h-7 text-white" />,
                   cardGradient:
                     "linear-gradient(145deg, rgba(219, 234, 254, 0.9) 0%, rgba(191, 219, 254, 0.95) 50%, rgba(147, 197, 253, 0.9) 100%)",
@@ -649,7 +645,7 @@ export default function AboutUs() {
             {[
               {
                 title: "Freedom",
-                desc: "We value self-expression and flexibility, supporting bold ideas and innovative thinking.",
+                desc: "We believe in giving our team the space to think, create, and own their work. Whether it's code or design, we provide support when needed, trust always, and let talent do what it does best. That's how great things get built.",
                 icon: <Users className="w-5 h-5 sm:w-6 sm:h-6 md:w-7 md:h-7 text-white" />,
                 cardGradient:
                   "linear-gradient(145deg, rgba(220, 252, 231, 0.9) 0%, rgba(187, 247, 208, 0.95) 50%, rgba(134, 239, 172, 0.9) 100%)",
@@ -664,7 +660,7 @@ export default function AboutUs() {
               },
               {
                 title: "Growth",
-                desc: "We are committed to personal and professional growth for our team and partners.",
+                desc: "Better than yesterday that's the goal. New tech solutions, new gaming trends, new skills we're always learning. And whatever we learn, we share with the team. No one gets left behind here.",
                 icon: <Rocket className="w-5 h-5 sm:w-6 sm:h-6 md:w-7 md:h-7 text-white" />,
                 cardGradient:
                   "linear-gradient(145deg, rgba(237, 233, 254, 0.9) 0%, rgba(221, 214, 254, 0.95) 50%, rgba(196, 181, 253, 0.9) 100%)",
@@ -679,7 +675,7 @@ export default function AboutUs() {
               },
               {
                 title: "Passion",
-                desc: "Passion fuels our work and adds excitement to every project.",
+                desc: "We love what we do and it shows in every project. Whether building a game or designing a website, we bring creativity, energy, and genuine care to the work. No shortcuts, no half efforts. Just honest craftsmanship and a team that actually enjoys building great things.",
                 icon: <Flame className="w-5 h-5 sm:w-6 sm:h-6 md:w-7 md:h-7 text-white" />,
                 cardGradient:
                   "linear-gradient(145deg, rgba(254, 243, 199, 0.9) 0%, rgba(255, 237, 213, 0.95) 50%, rgba(254, 215, 170, 0.9) 100%)",
@@ -768,14 +764,12 @@ export default function AboutUs() {
           Who We Are
         </p>
 
-        <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-white mb-3 sm:mb-4 md:mb-5 lg:mb-6">
+        {/* <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-white mb-3 sm:mb-4 md:mb-5 lg:mb-6">
           A Creative Gaming & Tech Studio
-        </h2>
+        </h2> */}
 
         <p className="text-xs sm:text-sm md:text-base leading-relaxed max-w-2xl mx-auto md:mx-0 text-white opacity-90">
-          We are a team of designers, developers, and strategists passionate about
-          creating immersive games and digital experiences that inspire innovation,
-          creativity, and growth.
+          We're a creative team of developers, artists, and strategists who love building digital experiences. Whether it's designing games, developing websites, or creating interactive applications we put passion into every project. No complicated formulas. Just talented people who care about delivering work that actually stands out.
         </p>
       </div>
 
@@ -825,8 +819,7 @@ export default function AboutUs() {
         </h3>
 
         <p className="text-gray-600 text-sm sm:text-base text-center leading-relaxed max-w-md mx-auto">
-          We help startups and creators turn innovative ideas into meaningful
-          digital experiences using technology and design.
+          We turn ideas into reality. Startups and creators come to us with concepts we build them into websites that actually work, games that engage, and tools that solve problems. From first sketch to final launch, we make sure your vision becomes something real. Clean design. Smart technology. No unnecessary complexity.
         </p>
       </div>
 
@@ -852,8 +845,7 @@ export default function AboutUs() {
         </h3>
 
         <p className="text-gray-600 text-sm sm:text-base text-center leading-relaxed max-w-md mx-auto">
-          We envision a future where creative technology connects people and
-          builds inspiring digital worlds.
+         We're building a digital world that feels human. Where games inspire, websites connect, and experiences leave an impact. Every project we take on is a step toward that future  crafted with care, built to last, and designed to matter.
         </p>
       </div>
 

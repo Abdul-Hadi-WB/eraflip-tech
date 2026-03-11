@@ -95,34 +95,34 @@ const clients = [logo1, logo2, logo3, logo4, logo5, logo6, logo7, logo8];
 function TestimonialCarousel() {
   const testimonials = [
     {
-      name: "Alex Morgan",
-      role: "Chief Technology Officer",
+      name: "Michael Chen",
+      role: "CTO, InnovateTech ",
       company: "Global Solutions Inc.",
-      text: "Working with this team has been a game-changer for our organization. Their technical expertise delivered results that exceeded our expectations.",
+      text: "They didn't just connect our devices  they changed how we work. Manual processes became automated, confusing data became clear insights. For the first time, we're making decisions in real time that actually move our business forward. It's not just technology, it's a complete game-changer.",
       colorClass: "orange",
       initials: "AM"
     },
     {
-      name: "Sarah Johnson",
-      role: "Marketing Director",
+      name: "David Kim",
+      role: "Founder, TechFlow",
       company: "TechVision Corp",
-      text: "Exceptional communication and timely delivery. The team understood our requirements perfectly and delivered beyond expectations.",
+      text: "Our platform now handles millions of users with absolute stability and speed. Eraflip engineered it right the first time  robust architecture, enterprise-grade security, and seamless scalability. Since launch, performance has been flawless. That's the kind of technical excellence every business hopes for but rarely finds.",
       colorClass: "blue",
       initials: "SJ"
     },
     {
-      name: "David Chen",
-      role: "Founder & CEO",
+      name: " Olivia Martinez",
+      role: "Creative Director, Studio Nova",
       company: "InnovateLabs",
-      text: "Outstanding quality and attention to detail. Highly recommend their services for any software development needs.",
+      text: "It's not easy to find a team that cares about design as much as they care about code. Eraflip brought both together beautifully. Every pixel had meaning, every interaction felt effortless, and the final result was everything we imagined. No compromises, No shortcuts. Just pure craftsmanship.",
       colorClass: "green",
       initials: "DC"
     },
     {
-      name: "Emma Smith",
-      role: "Product Manager",
+      name: " Thomas Weber",
+      role: "Head of Engineering, FinTech Labs ",
       company: "Digital Solutions Ltd",
-      text: "Professional team with excellent communication. Delivered our project ahead of schedule with outstanding results.",
+      text: "We needed deep backend expertise paired with a seamless user experience. Eraflip delivered both, flawlessly. Their technical depth impressed us, but their ability to simplify complex challenges truly set them apart. Humble, honest, and highly skilled. Just smart, reliable work from day one.",
       colorClass: "purple",
       initials: "ES"
     }
@@ -373,7 +373,7 @@ const Home = () => {
 <section className="relative min-h-screen mt-15 bg-white overflow-hidden
                    py-12 sm:py-16 md:py-20 lg:py-20 2xl:py-24
                    px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16 2xl:px-20
-                   mb-[-120px] sm:mb-[-140px] md:mb-[-160px] lg:mb-[-170px] xl:mb-[-190px] 2xl:mb-[-220px]">
+                   mb-[-110px] sm:mb-[-130px] md:mb-[-150px] lg:mb-[-160px] xl:mb-[-180px] 2xl:mb-[-210px]">
   
   {/* CONTAINER — ab 2XL aur 3XL pe aur bada, taake image ko space mile */}
   <div className="max-w-[1400px] 2xl:max-w-[2000px] 3xl:max-w-[2400px] mx-auto min-h-screen flex flex-col lg:flex-row items-center justify-center 
@@ -402,7 +402,7 @@ const Home = () => {
           transition={{ duration: 0.7, delay: 0.2 }}
           className="block text-orange-500 mt-1"
         >
-          Innovation
+          Creativity
         </motion.span>
         <motion.span
           initial={{ opacity: 0, x: -100 }}
@@ -410,7 +410,7 @@ const Home = () => {
           transition={{ duration: 0.7, delay: 0.4 }}
           className="block text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl font-bold text-gray-700 mt-3 sm:mt-4"
         >
-          Through Smart Technology
+          Through Smart Solutions
         </motion.span>
       </h1>
 
@@ -427,10 +427,9 @@ const Home = () => {
         initial={{ opacity: 0, x: -100 }}
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.7, delay: 0.8 }}
-        className="text-base sm:text-lg md:text-xl 2xl:text-2xl text-gray-600 mt-4 sm:mt-5 md:mt-6 2xl:mt-8 text-justify max-w-sm sm:max-w-md md:max-w-lg 2xl:max-w-xl leading-relaxed"
+        className="text-base sm:text-md md:text-lg 2xl:text-xl text-gray-600 mt-4 sm:mt-5 md:mt-6 2xl:mt-8 text-justify max-w-sm sm:max-w-md md:max-w-lg 2xl:max-w-xl leading-relaxed"
       >
-        We are a trusted game development and design studio delivering
-        high-quality games for mobile, PC, and console platforms worldwide.
+       We are a global multi-service studio transforming bold ideas into powerful platforms, seamless digital solutions, and stunning games for all platforms worldwide.Bringing ideas to life with innovation, artistry, and technical excellence.
       </motion.p>
 
       {/* CTA BUTTONS — original */}
@@ -446,7 +445,7 @@ const Home = () => {
                            hover:bg-orange-600 transition-all duration-300 
                            hover:-translate-y-0.5 shadow-lg hover:shadow-xl 
                            text-sm sm:text-base 2xl:text-lg">
-            Start Project
+            Get Started.
           </button>
         </a>
       </motion.div>
@@ -495,8 +494,8 @@ const Home = () => {
         transition={{ delay: 0.4 }}
         className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-extrabold mb-2 sm:mb-3 md:mb-4 leading-tight text-gray-900 w-full"
       >
-        <span className="block">LEVEL UP</span>
-        <span className="block text-orange-500 mt-1 sm:mt-2">YOUR BUSINESS</span>
+        <span className="block">Power UP</span>
+        <span className="block text-orange-500 mt-1 sm:mt-2">YOUR GROWTH</span>
       </motion.h2>
       <motion.div
         initial={{ width: 0 }}
@@ -536,15 +535,29 @@ const Home = () => {
 <div className="flex flex-col justify-center space-y-2 sm:space-y-3 md:space-y-4 lg:space-y-6 w-full 
                 -translate-x-2 sm:-translate-x-3 lg:-translate-x-4 xl:-translate-x-8 2xl:-translate-x-16 3xl:-translate-x-24">
   
-  <motion.h2
+<motion.h2
     initial={{ opacity: 0, y: 20 }}
     whileInView={{ opacity: 1, y: 0 }}
     viewport={{ once: true }}
     transition={{ delay: 0.2 }}
-    className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-extrabold text-gray-900 leading-tight w-full"
-  >
-    We Are Increasing <span className="text-blue-800">Business Success</span> With Technology
-  </motion.h2>
+    className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-extrabold leading-tight w-full"
+>
+    <span className="text-gray-800">We Combine </span>
+    <span className="relative inline-block">
+        <span className="relative z-10 bg-gradient-to-r from-blue-800 to-blue-800 bg-clip-text text-transparent font-black">
+            Creative
+        </span>
+    </span>{" "}
+    <span className="relative inline-block">
+        <span className="relative z-10 bg-gradient-to-r from-blue-800 to-blue-800 bg-clip-text text-transparent font-black">
+            Vision
+        </span>
+       
+    </span>{" "}
+    <span className="bg-gradient-to-r from-gray-800 to-gray-900 bg-clip-text text-transparent">
+        With Technical Expertise
+    </span>
+</motion.h2>
 
   {/* Stats Boxes — bilkul original */}
   <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-6 mt-4">
@@ -583,45 +596,89 @@ const Home = () => {
 </section>
 
 {/* Section 3 */}
-<section className="w-full flex justify-center py-8 sm:py-12 md:py-16 lg:py-20 bg-white font-[Montserrat,sans-serif]">
+<section className="w-full flex justify-center py-8 sm:py-12 md:py-16 lg:py-20 bg-white font-[Montserrat,sans-serif] relative overflow-hidden">
+  
+  {/* Background Decorative Elements */}
+  <div className="absolute top-20 left-10 w-64 h-64 bg-blue-100 rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-blob"></div>
+  <div className="absolute bottom-20 right-10 w-64 h-64 bg-orange-100 rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-blob animation-delay-2000"></div>
+  
   <div className="relative w-[95%] sm:w-[92%] md:w-[90%] lg:w-[90%] max-w-6xl">
 
     {/* 🔥 STICKER – OUTSIDE BOX */}
-    <div className="absolute -top-16 sm:-top-20 md:-top-30 lg:-top-40 xl:-top-50 -right-4 sm:-right-8 md:-right-12 lg:-right-16 xl:-right-18 z-20">
+    <div className="absolute -top-16 sm:-top-20 md:-top-30 lg:-top-40 xl:-top-50 -right-4 sm:-right-8 md:-right-12 lg:-right-16 xl:-right-18 z-20 hover:rotate-12 transition-transform duration-300 cursor-pointer">
       <img
         src="/images/BRYETPeTACkgcPaaTFFAedWYE0Q.png"
         alt="Sticker"
-        className="w-32 h-32 sm:w-36 sm:h-36 md:w-44 md:h-44 lg:w-52 lg:h-52 xl:w-60 xl:h-60"
+        className="w-32 h-32 sm:w-36 sm:h-36 md:w-44 md:h-44 lg:w-52 lg:h-52 xl:w-60 xl:h-60 drop-shadow-2xl"
       />
     </div>
 
      {/* MAIN BOX */}
     <div
       className="relative px-6 sm:px-10 md:px-12 lg:px-14 py-10 sm:py-12 md:py-14 lg:py-16 text-white
-                 bg-gradient-to-r from-[#5b7bc0] via-[#3c8fd9] to-[#1da1f2]"
+                 bg-gradient-to-br from-[#1e3c72] via-[#2a5298] to-[#1da1f2] 
+                 shadow-2xl hover:shadow-3xl transition-all duration-500"
       style={{
         clipPath: "polygon(0% 0%, 88% 0%, 100% 22%, 100% 100%, 0% 100%)",
         borderRadius: "42px 0 0 42px",
+        transform: "perspective(1000px) rotateX(0deg) rotateY(0deg)",
+        boxShadow: "0 30px 40px -15px rgba(0, 0, 0, 0.3), inset 0 0 30px rgba(255,255,255,0.2)"
       }}
-    >
+    >    
+     {/* Corner Accents */}
+      <div className="absolute top-0 left-0 w-16 h-16 border-t-4 border-l-4 border-white/30 rounded-tl-[60px]"></div>
+      <div className="absolute bottom-0 right-0 w-16 h-16 border-b-4 border-r-4 border-white/30 rounded-br-[60px]"></div>
+
       {/* CONTENT */}
-      <div className="max-w-3xl space-y-4 sm:space-y-5 md:space-y-6">
+      <div className="max-w-3xl space-y-4 sm:space-y-5 md:space-y-6 relative z-10">
+        
+        {/* Heading with improved typography */}
         <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold leading-tight">
-          POWER UP YOUR <br />
-          <span className="text-white/90">
-            BUSINESS IT SOLUTIONS
+          <span className="bg-gradient-to-r from-white to-blue-100 bg-clip-text text-transparent">
+            Drive Growth With
+          </span>
+          <br />
+          <span className="relative inline-block mt-2">
+            <span className="bg-gradient-to-r from-yellow-300 to-white bg-clip-text text-transparent text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black">
+              Smart Technology
+            </span>
+            <span className="absolute -bottom-2 left-0 w-full h-1 bg-gradient-to-r from-yellow-300 to-white rounded-full"></span>
           </span>
         </h2>
 
-        <p className="text-sm sm:text-base md:text-lg text-white/90 leading-relaxed">
-          Empower your business with smart, scalable IT solutions.
-          From development to digital transformation, Eraflip delivers
-          technology that accelerates growth, boosts efficiency, and keeps
-          you ahead in today's digital world.
-        </p>
+        {/* Paragraph with improved readability */}
+        <div className="relative">
+          <p className="text-sm sm:text-base md:text-lg text-white/95 leading-relaxed drop-shadow-md">
+            Eraflip delivers enterprise-ready IT solutions across Game Development, Web Development, Odoo, Digital Marketing, SEO, Content Creation, UI/UX Design, and IoT. We drive growth with scalable systems, optimize efficiency through intelligent automation, and empower your business with cutting-edge innovation. From immersive games to data-driven campaigns, every solution is purpose-built to deliver measurable business outcomes. 
+            <span className="block mt-3 font-semibold text-white">
+              Practical, reliable, and engineered for the long run.
+            </span>
+          </p>
+          
+          {/* Decorative quote mark */}
+          <span className="absolute -top-4 -left-2 text-6xl text-white/10 font-serif">"</span>
+        </div>
+        
+        
       </div>
     </div>
   </div>
+
+  {/* Animation Keyframes - Add to your global CSS */}
+  <style jsx>{`
+    @keyframes blob {
+      0% { transform: translate(0px, 0px) scale(1); }
+      33% { transform: translate(30px, -50px) scale(1.1); }
+      66% { transform: translate(-20px, 20px) scale(0.9); }
+      100% { transform: translate(0px, 0px) scale(1); }
+    }
+    .animate-blob {
+      animation: blob 7s infinite;
+    }
+    .animation-delay-2000 {
+      animation-delay: 2s;
+    }
+  `}</style>
 </section>
 
 
@@ -660,18 +717,17 @@ const Home = () => {
       >
         {/* Main Heading */}
         <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-gray-900 mb-3 sm:mb-4 md:mb-5 lg:mb-6">
-          Professional
+          Solutions 
           <span className="block mt-1 sm:mt-2 md:mt-3">
             <span className="text-orange-500">
-              Tech Services
+              That Deliver
             </span>
           </span>
         </h1>
 
         {/* Description */}
         <p className="text-sm sm:text-base md:text-lg text-gray-700 max-w-3xl mx-auto leading-relaxed px-2 sm:px-0">
-          Empowering businesses with cutting-edge technology and innovative solutions 
-          that drive real growth and digital transformation.
+          From game development to web solutions, digital marketing, and beyond. Every project crafted for performance and built to last.
         </p>
       </motion.div>
     </div>
@@ -722,13 +778,13 @@ const Home = () => {
               Game Development
             </h3>
             <p className="text-xs sm:text-sm md:text-base text-gray-600 leading-relaxed text-center group-hover:text-gray-800 transition-colors duration-400">
-              Crafting immersive game worlds with cutting-edge technology and creative precision.
+          End-to-end game development services across mobile, PC, and console. Using Unity and Unreal Engine, we build all genrea games designed to engage players, perform flawlessly, and scale with your vision.
             </p>
 
             {/* Features List */}
             <div className="mb-4 sm:mb-5 md:mb-6 lg:mb-8 flex-grow mt-3 sm:mt-4 md:mt-5 lg:mt-6">
               <div className="space-y-2 sm:space-y-3">
-                {["Unity/Unreal Engine", "3D Modeling", "Multiplayer", "VR/AR"].map((feature, index) => (
+                {["Game Development", "3D Modeling", "Version Control", "Performance Tools"].map((feature, index) => (
                   <div key={index} className="flex items-center gap-2 sm:gap-3 group/item">
                     <div className="relative">
                       <div className="absolute -inset-1 bg-orange-100/30 rounded-full opacity-0 group-hover/item:opacity-100 transition-opacity duration-300"></div>
@@ -794,13 +850,13 @@ const Home = () => {
               Web Development
             </h3>
             <p className="text-xs sm:text-sm md:text-base text-gray-600 leading-relaxed text-center group-hover:text-gray-800 transition-colors duration-400">
-              Building high-performance websites and applications with modern frameworks.
+             Building high-performance websites and web applications that are fast, scalable, and built to convert. Modern frameworks, clean code, and seamless user experiences  every time.
             </p>
 
             {/* Features List */}
             <div className="mb-4 sm:mb-5 md:mb-6 lg:mb-8 flex-grow mt-3 sm:mt-4 md:mt-5 lg:mt-6">
               <div className="space-y-2 sm:space-y-3">
-                {["React/Next.js", "Full Stack", "E-commerce", "API Integration"].map((feature, index) => (
+                {["Frontend Frameworks", "Backend Frameworks", "Visual Aesthetics ", "Deployment"].map((feature, index) => (
                   <div key={index} className="flex items-center gap-2 sm:gap-3 group/item">
                     <div className="relative">
                       <div className="absolute -inset-1 bg-blue-100/30 rounded-full opacity-0 group-hover/item:opacity-100 transition-opacity duration-300"></div>
@@ -866,13 +922,13 @@ const Home = () => {
               Digital Marketing
             </h3>
             <p className="text-xs sm:text-sm md:text-base text-gray-600 leading-relaxed text-center group-hover:text-gray-800 transition-colors duration-400">
-              Strategic campaigns from social media to SEO that engage and convert audiences.
+             Data-driven strategies that put your brand in front of the right audience. From SEO to social media, we create campaigns that engage, convert, and deliver measurable ROI.
             </p>
 
             {/* Features List */}
             <div className="mb-4 sm:mb-5 md:mb-6 lg:mb-8 flex-grow mt-3 sm:mt-4 md:mt-5 lg:mt-6">
               <div className="space-y-2 sm:space-y-3">
-                {["SEO", "Social Media", "PPC", "Analytics"].map((feature, index) => (
+                {["Analytics", " SEO", "Social-Media", "Email-Marketing"].map((feature, index) => (
                   <div key={index} className="flex items-center gap-2 sm:gap-3 group/item">
                     <div className="relative">
                       <div className="absolute -inset-1 bg-emerald-100/30 rounded-full opacity-0 group-hover/item:opacity-100 transition-opacity duration-300"></div>
@@ -938,13 +994,13 @@ const Home = () => {
               IoT Solutions
             </h3>
             <p className="text-xs sm:text-sm md:text-base text-gray-600 leading-relaxed text-center group-hover:text-gray-800 transition-colors duration-400">
-              Connecting devices and data for smarter automation and real-time insights.
+              Seamlessly connecting devices, systems, and data to enable smarter automation and real-time intelligence.
             </p>
 
             {/* Features List */}
             <div className="mb-4 sm:mb-5 md:mb-6 lg:mb-8 flex-grow mt-3 sm:mt-4 md:mt-5 lg:mt-6">
               <div className="space-y-2 sm:space-y-3">
-                {["Smart Devices", "Sensor Networks", "Real-time Data", "Automation"].map((feature, index) => (
+                {["IOT Platforms", "Hardware", "Protocols", "Data Visualization"].map((feature, index) => (
                   <div key={index} className="flex items-center gap-2 sm:gap-3 group/item">
                     <div className="relative">
                       <div className="absolute -inset-1 bg-violet-100/30 rounded-full opacity-0 group-hover/item:opacity-100 transition-opacity duration-300"></div>
@@ -1010,13 +1066,13 @@ const Home = () => {
               Content Creation
             </h3>
             <p className="text-xs sm:text-sm md:text-base text-gray-600 leading-relaxed text-center group-hover:text-gray-800 transition-colors duration-400">
-              Creating compelling content that tells stories, builds brands, and engages audiences.
+              Compelling stories that capture attention and build emotional connections. From video production to brand storytelling, we create content that resonates and inspires action.
             </p>
 
             {/* Features List */}
             <div className="mb-4 sm:mb-5 md:mb-6 lg:mb-8 flex-grow mt-3 sm:mt-4 md:mt-5 lg:mt-6">
               <div className="space-y-2 sm:space-y-3">
-                {["Video Production", "Social Content", "Brand Storytelling", "Visual Design"].map((feature, index) => (
+                {["Video Editing", "Graphic Designing", "Motion Graphics", "AI Content"].map((feature, index) => (
                   <div key={index} className="flex items-center gap-2 sm:gap-3 group/item">
                     <div className="relative">
                       <div className="absolute -inset-1 bg-orange-100/30 rounded-full opacity-0 group-hover/item:opacity-100 transition-opacity duration-300"></div>
@@ -1082,13 +1138,13 @@ const Home = () => {
               UI/UX Design
             </h3>
             <p className="text-xs sm:text-sm md:text-base text-gray-600 leading-relaxed text-center group-hover:text-gray-800 transition-colors duration-400">
-              Crafting visually stunning designs with purpose, emotion, and brand identity.
+              Designed for the way people actually feel and interact. Intuitive flows, stunning visuals, and experiences that build lasting connections between brand and user.
             </p>
 
             {/* Features List */}
             <div className="mb-4 sm:mb-5 md:mb-6 lg:mb-8 flex-grow mt-3 sm:mt-4 md:mt-5 lg:mt-6">
               <div className="space-y-2 sm:space-y-3">
-                {["Wireframing", "Prototyping", "User Testing", "Branding"].map((feature, index) => (
+                {["Design & Prototyping", "Collaboration", "User Testing", "Design System"].map((feature, index) => (
                   <div key={index} className="flex items-center gap-2 sm:gap-3 group/item">
                     <div className="relative">
                       <div className="absolute -inset-1 bg-blue-100/30 rounded-full opacity-0 group-hover/item:opacity-100 transition-opacity duration-300"></div>
@@ -1122,10 +1178,10 @@ const Home = () => {
       <div className="inline-flex flex-col sm:flex-row items-center gap-4 sm:gap-5 md:gap-6 bg-gradient-to-r from-white to-gray-50 rounded-xl sm:rounded-2xl p-4 sm:p-5 md:p-6 lg:p-8 border border-gray-200 shadow-lg hover:shadow-xl hover:border-gray-300 transition-all duration-400 max-w-3xl mx-auto">
         <div className="text-center sm:text-left">
           <h3 className="text-lg sm:text-xl font-bold text-gray-900 mb-1 sm:mb-2 hover:text-gray-800 transition-colors duration-400">
-            Ready to Transform Your Business?
+           What Can We Build for You?
           </h3>
           <p className="text-sm sm:text-base text-gray-600 hover:text-gray-700 transition-colors duration-400">
-            Get professional tech solutions tailored to your needs.
+          Get innovative, high-performance tech solutions tailored to your needs.
           </p>
         </div>
         <button className="px-6 sm:px-7 md:px-8 py-2.5 sm:py-3 md:py-3.5 rounded-lg sm:rounded-xl bg-gradient-to-r from-gray-800 to-gray-700 text-white font-semibold text-sm sm:text-base shadow-md hover:shadow-lg hover:from-gray-900 hover:to-gray-800 hover:scale-105 transition-all duration-400 whitespace-nowrap">
@@ -1216,17 +1272,17 @@ const Home = () => {
       {[
         {
           title: "Full-Stack Capabilities",
-          desc: "We build across every layer of technology, from frontend to backend and everything in between.",
+          desc: "We build across every layer of technology  from intuitive frontends to robust backends, databases, APIs, and everything in between. One team, seamless execution.",
           hoverColor: "orange",
         },
         {
           title: "Effective Communication",
-          desc: "Clear, transparent communication that ensures smooth collaboration and faster delivery.",
+          desc: "Clear, transparent communication that keeps everyone aligned  ensuring smooth collaboration and faster delivery. No jargon, no delays, just honest conversations.",
           hoverColor: "blue",
         },
         {
           title: "Focus On Quality",
-          desc: "Carefully crafted, tested, and refined solutions that meet high-quality standards.",
+          desc: "Every line of code, every pixel, every detail is crafted with intention, tested with precision, and refined until it's exactly what you deserve.",
           hoverColor: "green",
         },
       ].map((item, i) => (
@@ -1492,7 +1548,7 @@ const Home = () => {
       </div>
 
       <p className="text-gray-700 max-w-2xl mx-auto text-sm md:text-base px-2 md:px-0">
-        Partnering with innovative companies worldwide to deliver exceptional digital solutions
+        Brands we've grown with  from bold startups to industry leaders.
       </p>
     </div>
 
@@ -1653,14 +1709,14 @@ const Home = () => {
 
         {/* Heading */}
         <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-4xl xl:text-5xl font-bold text-gray-900 text-center px-2">
-          What Our <span className="text-orange-500">Clients Say</span>
+          From Our<span className="text-orange-500">Clients</span>
         </h2>
 
         {/* Right Line */}
         <div className="w-6 sm:w-8 lg:w-10 h-0.5 sm:h-1 bg-gradient-to-l from-transparent via-orange-400 to-transparent rounded-full"></div>
       </div>
 
-      <p className="text-gray-600 max-w-xl mx-auto text-xs sm:text-sm md:text-base lg:text-base">Real feedback from companies we've partnered with</p>
+      <p className="text-gray-600 max-w-xl mx-auto text-xs sm:text-sm md:text-base lg:text-base">Kind words from teams we've built alongside.</p>
     </div>
 
     {/* Testimonial Carousel */}
@@ -1689,14 +1745,14 @@ const Home = () => {
           <div className="w-6 sm:w-8 lg:w-10 h-0.5 sm:h-1 bg-gradient-to-r from-transparent via-orange-400 to-transparent rounded-full"></div>
 
           <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-gray-900 text-center px-2">
-            Technologies We <span className="text-orange-500">Master</span>
+            Our <span className="text-orange-500">Expertise</span>
           </h2>
 
           <div className="w-6 sm:w-8 lg:w-10 h-0.5 sm:h-1 bg-gradient-to-l from-transparent via-orange-400 to-transparent rounded-full"></div>
         </div>
 
         <p className="text-gray-700 max-w-2xl mx-auto text-xs sm:text-sm md:text-base lg:text-base px-2">
-          Cutting-edge frameworks and tools that drive our development excellence
+        We combine modern tools with proven technologies to deliver consistent, real-world results. It's the standard we have set for ourselves  and the promise we keep for our clients.
         </p>
       </div>
 
