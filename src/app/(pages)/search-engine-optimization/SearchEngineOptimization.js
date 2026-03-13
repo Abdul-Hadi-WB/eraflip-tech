@@ -266,7 +266,7 @@ const SearchEngineOptimization = () => {
     animate={isHeroInView ? "visible" : "hidden"}
     transition={{ delay: 0.3 }}
   >
-    We optimize <span className="text-orange-600 font-medium">website performance</span> that drives organic traffic, improves rankings, and boosts online visibility worldwide.
+    We implement <span className="text-orange-600 font-medium">data-driven SEO strategies</span> that improve search rankings, increase organic traffic, and enhance online visibility across global search engines.
   </motion.p>
 
   <motion.div 
@@ -278,7 +278,7 @@ const SearchEngineOptimization = () => {
   >
     <Link href="/contact-us" className="mt-auto">
       <Button className="group bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white px-4 sm:px-6 md:px-8 py-4 sm:py-5 md:py-6 text-sm sm:text-base md:text-lg rounded-xl w-full sm:w-auto">
-        Start SEO Campaign
+        Start Your Campaign
       </Button>
     </Link>
   </motion.div>
@@ -373,7 +373,7 @@ const SearchEngineOptimization = () => {
 
               {/* Description */}
               <p className="text-base sm:text-lg md:text-xl text-gray-700 max-w-3xl mx-auto leading-relaxed">
-                We optimize website performance that drives organic traffic, improves rankings, and boosts online visibility worldwide.
+               We drive organic growth through technical excellence, strategic content, and authoritative link  delivering higher rankings, increased traffic, and sustained online visibility.
               </p>
             </motion.div>
           </div>
@@ -425,13 +425,13 @@ const SearchEngineOptimization = () => {
                     Website Audit & Keyword Research
                   </h3>
                   <p className="text-gray-600 leading-relaxed text-center group-hover:text-gray-800 transition-colors duration-400">
-                    Analyzing your site and finding the right keywords to boost rankings and traffic.
+                   In-depth site analysis and strategic keyword discovery to identify opportunities and build a foundation for search success.
                   </p>
 
                   {/* Features List */}
                   <div className="mb-8 flex-grow mt-6">
                     <div className="space-y-3">
-                      {["Website Analysis", "Keyword Research", "Competitor Analysis"].map((feature, index) => (
+                      {["Technical Audit", "Keyword Discovery", "Competitor Analysis","Opportunity Mapping"].map((feature, index) => (
                         <div key={index} className="flex items-center gap-3 group/item">
                           <div className="relative">
                             <div className="absolute -inset-1 bg-orange-100/30 rounded-full opacity-0 group-hover/item:opacity-100 transition-opacity duration-300"></div>
@@ -497,13 +497,13 @@ const SearchEngineOptimization = () => {
                     On-Page, Off-Page & Technical SEO
                   </h3>
                   <p className="text-gray-600 leading-relaxed text-center group-hover:text-gray-800 transition-colors duration-400">
-                    Enhancing your website, building authority, and fixing technical SEO to boost visibility.
+                    Comprehensive optimization across all SEO pillars enhancing on-site elements, building authority, and resolving technical barriers.
                   </p>
 
                   {/* Features List */}
                   <div className="mb-8 flex-grow mt-6">
                     <div className="space-y-3">
-                      {["On-Page SEO", "Off-Page SEO", "Technical SEO"].map((feature, index) => (
+                      {["On-Site Optimization", "Authority Building", "Site Architecture","Performance Metrics"].map((feature, index) => (
                         <div key={index} className="flex items-center gap-3 group/item">
                           <div className="relative">
                             <div className="absolute -inset-1 bg-blue-100/30 rounded-full opacity-0 group-hover/item:opacity-100 transition-opacity duration-300"></div>
@@ -569,13 +569,13 @@ const SearchEngineOptimization = () => {
                     Local & E-Commerce SEO
                   </h3>
                   <p className="text-gray-600 leading-relaxed text-center group-hover:text-gray-800 transition-colors duration-400">
-                    Optimizing businesses for local search and e-commerce growth with SEO strategies.
+                    Targeted strategies for businesses seeking local customers or e-commerce growth from Google Business optimization to product page ranking.
                   </p>
 
                   {/* Features List */}
                   <div className="mb-8 flex-grow mt-6">
                     <div className="space-y-3">
-                      {["Local SEO", "E-Commerce SEO", "Google Business"].map((feature, index) => (
+                      {["Local Search Dominance", "Online Store Architecture", "Google Business","Product Optimization"].map((feature, index) => (
                         <div key={index} className="flex items-center gap-3 group/item">
                           <div className="relative">
                             <div className="absolute -inset-1 bg-orange-100/30 rounded-full opacity-0 group-hover/item:opacity-100 transition-opacity duration-300"></div>
@@ -641,13 +641,13 @@ const SearchEngineOptimization = () => {
                     Content Optimization & Internal Linking
                   </h3>
                   <p className="text-gray-600 leading-relaxed text-center group-hover:text-gray-800 transition-colors duration-400">
-                    Enhancing content and linking structure to improve rankings, relevance, and user flow.
+                    Strategic content refinement and intelligent linking structures that improve relevance, rankings, and user navigation.
                   </p>
 
                   {/* Features List */}
                   <div className="mb-8 flex-grow mt-6">
                     <div className="space-y-3">
-                      {["Content Optimization", "Internal Linking", "User Experience"].map((feature, index) => (
+                      {["Content Enhancement", "Smart Internal Linking", "User Flow","Semantic Relevance"].map((feature, index) => (
                         <div key={index} className="flex items-center gap-3 group/item">
                           <div className="relative">
                             <div className="absolute -inset-1 bg-blue-100/30 rounded-full opacity-0 group-hover/item:opacity-100 transition-opacity duration-300"></div>
@@ -713,13 +713,13 @@ const SearchEngineOptimization = () => {
                     Backlink Building & Guest Posting
                   </h3>
                   <p className="text-gray-600 leading-relaxed text-center group-hover:text-gray-800 transition-colors duration-400">
-                    Strengthening your SEO with trusted backlinks and strategic guest posting.
+                    Authority-driven link acquisition through quality backlinks and strategic guest posting on relevant platforms.
                   </p>
 
                   {/* Features List */}
                   <div className="mb-8 flex-grow mt-6">
                     <div className="space-y-3">
-                      {["Backlink Building", "Guest Posting", "Authority Building"].map((feature, index) => (
+                      {["Backlink Acquisition", "Guest Posting", "Domain Authority","Outreach Campaigns"].map((feature, index) => (
                         <div key={index} className="flex items-center gap-3 group/item">
                           <div className="relative">
                             <div className="absolute -inset-1 bg-violet-100/30 rounded-full opacity-0 group-hover/item:opacity-100 transition-opacity duration-300"></div>
@@ -785,13 +785,13 @@ const SearchEngineOptimization = () => {
                     Monthly SEO Reports & Ranking Analysis
                   </h3>
                   <p className="text-gray-600 leading-relaxed text-center group-hover:text-gray-800 transition-colors duration-400">
-                    Detailed monthly performance reports and ranking analysis to keep growth measurable.
+                    Detailed monthly reports with ranking analysis and performance tracking to keep your growth measurable.
                   </p>
 
                   {/* Features List */}
                   <div className="mb-8 flex-grow mt-6">
                     <div className="space-y-3">
-                      {["Monthly Reports", "Ranking Analysis", "Performance Tracking"].map((feature, index) => (
+                      {["Monthly Reports", "Ranking Analysis", "Performance Tracking","Actionable Insights"].map((feature, index) => (
                         <div key={index} className="flex items-center gap-3 group/item">
                           <div className="relative">
                             <div className="absolute -inset-1 bg-emerald-100/30 rounded-full opacity-0 group-hover/item:opacity-100 transition-opacity duration-300"></div>

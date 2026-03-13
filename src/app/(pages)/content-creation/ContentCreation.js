@@ -194,8 +194,7 @@ const ContentCreation = () => {
     animate={isHeroInView ? "visible" : "hidden"}
     transition={{ delay: 0.3 }}
   >
-    We create <span className="text-orange-600 font-medium">stunning visual content</span> that 
-    engages audiences, tells compelling stories, and elevates brand identity worldwide.
+    We create <span className="text-orange-600 font-medium">stunning visual content</span>that tells your brand's story, engages target audiences, and delivers measurable impact across video production, motion graphics, and digital campaigns. 
   </motion.p>
 
   <motion.div 
@@ -292,7 +291,7 @@ const ContentCreation = () => {
 
               {/* Description */}
               <p className="text-base sm:text-lg md:text-xl text-gray-700 max-w-3xl mx-auto leading-relaxed">
-                We create stunning visual content that engages audiences, tells compelling stories, and elevates brand identity worldwide.
+             We produce engaging visual content that brings brand stories to life from commercial photography and corporate videography to motion design and creative direction helping brands connect with audiences and strengthen their digital presence.
               </p>
             </motion.div>
           </div>
@@ -344,13 +343,13 @@ const ContentCreation = () => {
                     Creative Post & Story Design
                   </h3>
                   <p className="text-gray-600 leading-relaxed text-center group-hover:text-gray-800 transition-colors duration-400">
-                    Crafting eye-catching, creative stories that enhance engagement and brand identity.
+                    Strategically designed social media posts and stories that capture attention, communicate brand values, and drive daily engagement.
                   </p>
 
                   {/* Features List */}
                   <div className="mb-8 flex-grow mt-6">
                     <div className="space-y-3">
-                      {["Social Media Posts", "Instagram Stories", "Brand Visuals"].map((feature, index) => (
+                      {["Social Media Posts", "Instagram Stories", "Brand Visuals","Daily Engagement"].map((feature, index) => (
                         <div key={index} className="flex items-center gap-3 group/item">
                           <div className="relative">
                             <div className="absolute -inset-1 bg-orange-100/30 rounded-full opacity-0 group-hover/item:opacity-100 transition-opacity duration-300"></div>
@@ -416,13 +415,13 @@ const ContentCreation = () => {
                     Short Videos, Reels & Visual Storytelling
                   </h3>
                   <p className="text-gray-600 leading-relaxed text-center group-hover:text-gray-800 transition-colors duration-400">
-                    Engaging short videos and reels that tell your brand story creatively.
+                   High-impact short-form video content including reels and stories crafted to entertain, inform, and convert audiences across platforms.
                   </p>
 
                   {/* Features List */}
                   <div className="mb-8 flex-grow mt-6">
                     <div className="space-y-3">
-                      {["Short Videos", "Instagram Reels", "Visual Storytelling"].map((feature, index) => (
+                      {["Short Videos", "Instagram Reels", "Visual Storytelling","Platform Optimization"].map((feature, index) => (
                         <div key={index} className="flex items-center gap-3 group/item">
                           <div className="relative">
                             <div className="absolute -inset-1 bg-blue-100/30 rounded-full opacity-0 group-hover/item:opacity-100 transition-opacity duration-300"></div>
@@ -488,13 +487,13 @@ const ContentCreation = () => {
                     Copywriting & Caption Writing
                   </h3>
                   <p className="text-gray-600 leading-relaxed text-center group-hover:text-gray-800 transition-colors duration-400">
-                    Compelling catchy captions that engage audiences and strengthen brand voice.
+                    Compelling Content & Captions that reflect brand voice, connect with target audiences, and encourage meaningful interactions.
                   </p>
 
                   {/* Features List */}
                   <div className="mb-8 flex-grow mt-6">
                     <div className="space-y-3">
-                      {["Creative Copywriting", "Engaging Captions", "Brand Voice"].map((feature, index) => (
+                      {["Creative Copywriting", "Engaging Captions", "Brand Voice","Audience Connection"].map((feature, index) => (
                         <div key={index} className="flex items-center gap-3 group/item">
                           <div className="relative">
                             <div className="absolute -inset-1 bg-orange-100/30 rounded-full opacity-0 group-hover/item:opacity-100 transition-opacity duration-300"></div>
@@ -560,13 +559,13 @@ const ContentCreation = () => {
                     Product Photography & Videography
                   </h3>
                   <p className="text-gray-600 leading-relaxed text-center group-hover:text-gray-800 transition-colors duration-400">
-                    Professional product photography and videography for brand promotion.
+                    Professional photography and videography showcasing products with precision, creativity, and brand alignment.
                   </p>
 
                   {/* Features List */}
                   <div className="mb-8 flex-grow mt-6">
                     <div className="space-y-3">
-                      {["Product Photography", "Commercial Videography", "Brand Promotion"].map((feature, index) => (
+                      {["Product Photography", "Commercial Videography", "Brand Promotion","Creative Direction"].map((feature, index) => (
                         <div key={index} className="flex items-center gap-3 group/item">
                           <div className="relative">
                             <div className="absolute -inset-1 bg-blue-100/30 rounded-full opacity-0 group-hover/item:opacity-100 transition-opacity duration-300"></div>
@@ -632,13 +631,13 @@ const ContentCreation = () => {
                     Blog Writing & SEO Content
                   </h3>
                   <p className="text-gray-600 leading-relaxed text-center group-hover:text-gray-800 transition-colors duration-400">
-                    High-quality blog writing and SEO content that boosts rankings and drives organic traffic.
+                    Research-backed blog posts and SEO-optimized content that improve search visibility, establish authority, and drive organic traffic
                   </p>
 
                   {/* Features List */}
                   <div className="mb-8 flex-grow mt-6">
                     <div className="space-y-3">
-                      {["Blog Writing", "SEO Content", "Organic Traffic"].map((feature, index) => (
+                      {["Blog Writing", "SEO Content", "Organic Traffic","Authority Building"].map((feature, index) => (
                         <div key={index} className="flex items-center gap-3 group/item">
                           <div className="relative">
                             <div className="absolute -inset-1 bg-violet-100/30 rounded-full opacity-0 group-hover/item:opacity-100 transition-opacity duration-300"></div>
@@ -701,16 +700,16 @@ const ContentCreation = () => {
                   </div>
                   
                   <h3 className="text-2xl font-bold text-gray-900 mb-3 text-center group-hover:text-emerald-700 transition-colors duration-400">
-                    Social Media Strategy & Management
+                    Content Strategy & Scriptwriting
                   </h3>
                   <p className="text-gray-600 leading-relaxed text-center group-hover:text-gray-800 transition-colors duration-400">
-                    Comprehensive social media strategies and ongoing content management.
+                   Strategic planning and compelling scriptwriting that align your message according to audience needs and platform requirements.
                   </p>
 
                   {/* Features List */}
                   <div className="mb-8 flex-grow mt-6">
                     <div className="space-y-3">
-                      {["Strategy Planning", "Content Management", "Audience Growth"].map((feature, index) => (
+                      {["Content Strategy", "Scriptwriting", "	Storyboarding","Targeting Audience"].map((feature, index) => (
                         <div key={index} className="flex items-center gap-3 group/item">
                           <div className="relative">
                             <div className="absolute -inset-1 bg-emerald-100/30 rounded-full opacity-0 group-hover/item:opacity-100 transition-opacity duration-300"></div>

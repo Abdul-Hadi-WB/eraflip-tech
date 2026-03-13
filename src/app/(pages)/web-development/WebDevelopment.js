@@ -208,8 +208,7 @@ const WebDevelopment = () => {
     animate={isHeroInView ? "visible" : "hidden"}
     transition={{ delay: 0.3 }}
   >
-    We build <span className="text-orange-600 font-medium">high-performance web solutions</span> that 
-    drive business growth worldwide with cutting-edge technology and creative innovation.
+    From responsive <span className="text-orange-600 font-medium">business websites to complex web platforms  </span> we craft digital experiences that are fast, secure, and built to scale. Every line of code is written with precision keeping user experience at the core while providing best user experience.
   </motion.p>
 
   <motion.div 
@@ -307,7 +306,7 @@ const WebDevelopment = () => {
 
               {/* Description */}
               <p className="text-base sm:text-lg md:text-xl text-gray-700 max-w-3xl mx-auto leading-relaxed">
-                We build high-performance web solutions that drive business growth worldwide with cutting-edge technology and creative innovation.
+               We build scalable, secure, and visually compelling web solutions from custom websites and e-commerce platforms to enterprise web applications helping businesses establish powerful online presences and achieve sustainable growth.
               </p>
             </motion.div>
           </div>
@@ -359,13 +358,13 @@ const WebDevelopment = () => {
                     Custom Website Design & Development
                   </h3>
                   <p className="text-gray-600 leading-relaxed text-center group-hover:text-gray-800 transition-colors duration-400">
-                    High-performance web solutions using React, Next.js, Node.js, and modern frameworks for responsive, scalable websites.
+                    Tailored websites built with modern frameworks like React, Next.js, and Node.js  delivering responsive, scalable, and visually engaging digital experiences.
                   </p>
 
                   {/* Features List */}
                   <div className="mb-8 flex-grow mt-6">
                     <div className="space-y-3">
-                      {["React/Next.js", "Responsive Design", "Modern Frameworks"].map((feature, index) => (
+                      {["React/Next.js", "Responsive Design", "	User Friendly Interface","	Performance Optimization"].map((feature, index) => (
                         <div key={index} className="flex items-center gap-3 group/item">
                           <div className="relative">
                             <div className="absolute -inset-1 bg-orange-100/30 rounded-full opacity-0 group-hover/item:opacity-100 transition-opacity duration-300"></div>
@@ -431,13 +430,13 @@ const WebDevelopment = () => {
                     E-commerce Development Solutions
                   </h3>
                   <p className="text-gray-600 leading-relaxed text-center group-hover:text-gray-800 transition-colors duration-400">
-                    Building powerful e-commerce platforms with secure payment gateways and seamless shopping experiences.
+                    We provide complete e-commerce solutions  custom online stores, secure payment gateway integration, and intuitive user dashboards for seamless shopping experiences.
                   </p>
 
                   {/* Features List */}
                   <div className="mb-8 flex-grow mt-6">
                     <div className="space-y-3">
-                      {["Online Stores", "Secure Payments", "User Dashboard"].map((feature, index) => (
+                      {["E-Commerce Platforms", "Digital Storefronts", "Online Retail Solutions ","Secure Payment Integration"].map((feature, index) => (
                         <div key={index} className="flex items-center gap-3 group/item">
                           <div className="relative">
                             <div className="absolute -inset-1 bg-blue-100/30 rounded-full opacity-0 group-hover/item:opacity-100 transition-opacity duration-300"></div>
@@ -503,13 +502,13 @@ const WebDevelopment = () => {
                     SEO-Friendly Website Optimization
                   </h3>
                   <p className="text-gray-600 leading-relaxed text-center group-hover:text-gray-800 transition-colors duration-400">
-                    Optimizing websites for higher search rankings, faster loading speeds, and better user experience.
+                    Rank higher on search engines, load instantly on all devices, and deliver smooth experiences that turn visitors into loyal users.
                   </p>
 
                   {/* Features List */}
                   <div className="mb-8 flex-grow mt-6">
                     <div className="space-y-3">
-                      {["Search Ranking", "Fast Loading", "User Experience"].map((feature, index) => (
+                      {["Search Ranking", "Fast Loading", "Meta Descriptions","Core Web Vitals"].map((feature, index) => (
                         <div key={index} className="flex items-center gap-3 group/item">
                           <div className="relative">
                             <div className="absolute -inset-1 bg-orange-100/30 rounded-full opacity-0 group-hover/item:opacity-100 transition-opacity duration-300"></div>
@@ -575,13 +574,13 @@ const WebDevelopment = () => {
                     Landing Page & Portfolio Development
                   </h3>
                   <p className="text-gray-600 leading-relaxed text-center group-hover:text-gray-800 transition-colors duration-400">
-                    Creating high-converting landing pages and stunning portfolios that showcase your brand effectively.
+                    Strategically crafted landing pages and portfolios that capture attention, communicate brand value, and convert visitors into clients.
                   </p>
 
                   {/* Features List */}
                   <div className="mb-8 flex-grow mt-6">
                     <div className="space-y-3">
-                      {["High Converting", "Brand Showcase", "Portfolio Sites"].map((feature, index) => (
+                      {["Conversion Focused", "Brand Identity", "Work Showcase","User-Centered Design"].map((feature, index) => (
                         <div key={index} className="flex items-center gap-3 group/item">
                           <div className="relative">
                             <div className="absolute -inset-1 bg-blue-100/30 rounded-full opacity-0 group-hover/item:opacity-100 transition-opacity duration-300"></div>
@@ -647,13 +646,13 @@ const WebDevelopment = () => {
                     Website Revamp & Maintenance
                   </h3>
                   <p className="text-gray-600 leading-relaxed text-center group-hover:text-gray-800 transition-colors duration-400">
-                    Modernizing existing websites with fresh designs and providing reliable maintenance solutions.
+                    End-to-end website revamp and ongoing maintenance solutions keeping your site modern, functional, and secure at all times.
                   </p>
 
                   {/* Features List */}
                   <div className="mb-8 flex-grow mt-6">
                     <div className="space-y-3">
-                      {["Modern Designs", "Regular Updates", "Bug Fixing"].map((feature, index) => (
+                      {["Debugging", "Database Management", "Regular Enhancements","Backup Management "].map((feature, index) => (
                         <div key={index} className="flex items-center gap-3 group/item">
                           <div className="relative">
                             <div className="absolute -inset-1 bg-violet-100/30 rounded-full opacity-0 group-hover/item:opacity-100 transition-opacity duration-300"></div>
@@ -719,13 +718,13 @@ const WebDevelopment = () => {
                     Hosting, Domain & Security Setup
                   </h3>
                   <p className="text-gray-600 leading-relaxed text-center group-hover:text-gray-800 transition-colors duration-400">
-                    Providing comprehensive hosting solutions, domain management, and security configurations.
+                    Complete hosting infrastructure, domain solutions, and enterprise-level security built to keep your website online, protected, and performing at its best.
                   </p>
 
                   {/* Features List */}
                   <div className="mb-8 flex-grow mt-6">
                     <div className="space-y-3">
-                      {["Web Hosting", "Domain Setup", "Security Config"].map((feature, index) => (
+                      {["Premium Hosting", "Domain Configuration", "Data Encryption","Threat Monitoring"].map((feature, index) => (
                         <div key={index} className="flex items-center gap-3 group/item">
                           <div className="relative">
                             <div className="absolute -inset-1 bg-emerald-100/30 rounded-full opacity-0 group-hover/item:opacity-100 transition-opacity duration-300"></div>

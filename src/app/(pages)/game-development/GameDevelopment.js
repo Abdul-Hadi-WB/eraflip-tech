@@ -74,55 +74,50 @@ const GameDevelopment = () => {
       id: 1,
       image: Portfolio1,
       title: "Fireworks Games Simulator 2025",
-      subtitle: "EARLY ACCESS",
-      category: "RPG ADVENTURE",
-      stats: "4.8★ | 500K+ DOWNLOADS",
-      description: "Immerse yourself in a fantasy world with deep storytelling and character progression",
-      features: ["100+ LEVELS", "MULTIPLAYER MODE", "REGULAR UPDATES"],
+      category: "Simulation",
+      stats: "4.9★ | 30K+ DOWNLOADS",
+      description: "Design your dream Diwali or New Year show! Enjoy eco-friendly, smoke-free fireworks with stunning 3D graphics and explosive ASMR sounds. Light rockets, sparklers & TNT in an open-world city with funny smoke faces and extreme weather effects.",
+      features: ["Open World", "Explosive FX ", "Festival Fun"],
       playStoreLink: "https://play.google.com/store/apps/details?id=com.EraFlip.FireworkSimulator2025&hl=en"
     },
     {
       id: 2,
       image: Portfolio2,
       title: "Flappy Sky Cloud Runner",
-      subtitle: "IN DEVELOPMENT",
-      category: "SCI-FI SHOOTER",
-      stats: "4.6★ | 1M+ DOWNLOADS",
-      description: "Battle through galaxies in this intense space shooter with stunning visuals",
-      features: ["30+ MISSIONS", "BOSS BATTLES", "CUSTOM SHIPS"],
+      category: "Endless Runner",
+      stats: "4.6★ | 5K+ DOWNLOADS",
+      description: "Tap to fly! Guide your cute cloud through the sky, dodge birds, and survive as long as you can. Simple one-tap controls, and addictive one more try gameplay. Unlock new cloud skins and enjoy dynamic weather effects!",
+      features: ["Tap-to-Fly ", "Unlockable Skins ", "Endless Fun"],
       playStoreLink: "https://play.google.com/store/apps/details?id=com.EraFlip.FlappyCloudy&hl=en"
     },
     {
       id: 3,
       image: Portfolio3,
       title: "Jungle Fury",
-      subtitle: "AVAILABLE NOW",
-      category: "RACING",
-      stats: "4.7★ | 800K+ DOWNLOADS",
-      description: "Experience adrenaline-pumping races with realistic physics and customization",
-      features: ["20+ TRACKS", "CAR CUSTOMIZATION", "ONLINE RACES"],
+      category: "2D PlatFormer Game",
+      stats: "4.7★ | 10K+ DOWNLOADS",
+      description: "Escape the erupting volcano! Climb ancient totems, dodge falling rocks, and outrun rising lava in this thrilling vertical platformer. Test your reflexes, collect coins, and survive the cursed jungle. Tilt or swipe controls with!",
+      features: ["Vertical Climber ", "Lava Escape ", "Reflex Test"],
       playStoreLink: "https://play.google.com/store/apps/details?id=com.eraflip.junglefury&hl=en"
     },
     {
       id: 4,
       image: Portfolio4,
       title: "Basket Maze",
-      subtitle: "PREMIUM EDITION",
-      category: "BRAIN TEASER",
-      stats: "4.9★ | 2M+ DOWNLOADS",
-      description: "Challenge your mind with hundreds of innovative puzzles and brain teasers",
-      features: ["200+ PUZZLES", "DAILY CHALLENGES", "GLOBAL LEADERBOARD"],
+      category: "Puzzle Game",
+      stats: "4.9★ | 5K+ DOWNLOADS",
+      description: "Guide the ball into the basket! Navigate through tricky mazes filled with spikes, spinning saws, and moving platforms. Choose from basketball, soccer ball, cricket ball, golf ball, and more. Realistic tilt controls, 50+ levels, and unlockable balls!",
+      features: ["Physics Puzzle ", "Gesture Touch ", "50+ Levels"],
       playStoreLink: "https://play.google.com/store/apps/details?id=com.EraFlip.BasketMaze&hl=en"
     },
     {
       id: 5,
       image: Portfolio5,
       title: "Jumpy Tails",
-      subtitle: "ROGUE-LIKE",
-      category: "ACTION RPG",
-      stats: "4.5★ | 600K+ DOWNLOADS",
-      description: "Explore procedurally generated dungeons with unique challenges each run",
-      features: ["PROCEDURAL GENERATION", "PERMADEATH", "LOOT SYSTEM"],
+      category: "Endless Runner",
+      stats: "4.5★ | 5K+ DOWNLOADS",
+      description: "Run, jump, and slide with cute animals! Control lions, monkeys, and tigers in this endless runner adventure. Dodge obstacles, collect coins, and unlock new animals with unique abilities. Simple swipe controls with vibrant worlds!",
+      features: ["Endless Runner ", "Animal Adventure ", "Unlockable Abilities"],
       playStoreLink: "https://play.google.com/store/apps/details?id=com.EraFlip.JumpyTails&hl=en"
     },
   ];
@@ -358,8 +353,7 @@ const GameDevelopment = () => {
           animate={isHeroInView ? "visible" : "hidden"}
           transition={{ delay: 0.3 }}
         >
-          We build <span className="text-orange-600 font-medium">immersive gaming experiences</span> that 
-          captivate millions of players worldwide with cutting-edge technology and creative innovation.
+          From concept to completion we execute every <span className="text-orange-600 font-medium">stage of game creation </span>  including artistic design, technical development, multiplayer integration, audio engineering, performance testing, and global distribution  delivering exceptional experiences on every platform.
         </motion.p>
 
         <motion.div 
@@ -371,7 +365,7 @@ const GameDevelopment = () => {
         >
           <Link href="/contact-us" className="mt-auto">
             <Button className="group bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white px-4 sm:px-6 md:px-8 py-4 sm:py-5 md:py-6 text-sm sm:text-base md:text-lg rounded-xl w-full sm:w-auto">
-              Launch Your Game
+              Build Your Game
             </Button>
           </Link>
         </motion.div>
@@ -457,7 +451,7 @@ const GameDevelopment = () => {
 
               {/* Description */}
               <p className="text-base sm:text-lg md:text-xl text-gray-700 max-w-3xl mx-auto leading-relaxed">
-                We build immersive gaming experiences that captivate millions of players worldwide with cutting-edge technology and creative innovation.
+                We deliver end-to-end game development solutions that captivate global players  fusing creative innovation with technical precision to build experiences that entertain, engage, and endure.
               </p>
             </motion.div>
           </div>
@@ -508,13 +502,13 @@ const GameDevelopment = () => {
                     Full Game Development
                   </h3>
                   <p className="text-gray-600 leading-relaxed text-center group-hover:text-gray-800 transition-colors duration-400">
-                    High-performance game solutions using Unity, Unreal Engine, Godot, and custom engines for Android, iOS, PC, Web, AR & VR platforms.
+                    End-to-end game production using Unity, Unreal Engine, Godot, and custom engines delivering high-performance experiences for Android, iOS, PC, Web, AR, and VR platforms.
                   </p>
 
                   {/* Features List */}
                   <div className="mb-8 flex-grow mt-6">
                     <div className="space-y-3">
-                      {["Unity / Unreal Engine", "Multiplayer Games", "AR / VR Support"].map((feature, index) => (
+                      {["Social Features Integration ", "Multiplayer Games", "Multiplayer Games", "Cross-Platform Optimization"].map((feature, index) => (
                         <div key={index} className="flex items-center gap-3 group/item">
                           <div className="relative">
                             <div className="absolute -inset-1 bg-orange-100/30 rounded-full opacity-0 group-hover/item:opacity-100 transition-opacity duration-300"></div>
@@ -580,13 +574,13 @@ const GameDevelopment = () => {
                     Game Design & UI/UX
                   </h3>
                   <p className="text-gray-600 leading-relaxed text-center group-hover:text-gray-800 transition-colors duration-400">
-                    Immersive game design, character modeling, level design and user interfaces that captivate players with stunning visuals.
+                    Creative game design, character development, level architecture and user-centric interfaces that immerse players in visually stunning worlds.                         
                   </p>
 
                   {/* Features List */}
                   <div className="mb-8 flex-grow mt-6">
                     <div className="space-y-3">
-                      {["Level Design", "UI/UX", "Character Art"].map((feature, index) => (
+                      {["Character Modeling ","Level Design ","Visual Storytelling","UI Design"].map((feature, index) => (
                         <div key={index} className="flex items-center gap-3 group/item">
                           <div className="relative">
                             <div className="absolute -inset-1 bg-blue-100/30 rounded-full opacity-0 group-hover/item:opacity-100 transition-opacity duration-300"></div>
@@ -652,13 +646,13 @@ const GameDevelopment = () => {
                     2D/3D Art & Animation
                   </h3>
                   <p className="text-gray-600 leading-relaxed text-center group-hover:text-gray-800 transition-colors duration-400">
-                    Stunning 2D/3D graphics, character modeling, texture art and fluid animations that bring games to life with creative innovation.
+                   High-quality 2D/3D visuals, character modeling, texture painting and smooth animations that bring unique artistic visions to life.               
                   </p>
 
                   {/* Features List */}
                   <div className="mb-8 flex-grow mt-6">
                     <div className="space-y-3">
-                      {["2D Arts", "3D Modeling", "Animations"].map((feature, index) => (
+                      {["Character Design ", "Environment Art", "3D Assets", "Fluid Animation"].map((feature, index) => (
                         <div key={index} className="flex items-center gap-3 group/item">
                           <div className="relative">
                             <div className="absolute -inset-1 bg-orange-100/30 rounded-full opacity-0 group-hover/item:opacity-100 transition-opacity duration-300"></div>
@@ -724,13 +718,13 @@ const GameDevelopment = () => {
                     Programming & Gameplay
                   </h3>
                   <p className="text-gray-600 leading-relaxed text-center group-hover:text-gray-800 transition-colors duration-400">
-                    High-performance game programming, physics engines, AI programming and engaging gameplay mechanics with optimized code.
+                    High-performance coding solutions featuring intelligent AI, realistic physics, and well-structured game logic  built for reliability and scalability.
                   </p>
 
                   {/* Features List */}
                   <div className="mb-8 flex-grow mt-6">
                     <div className="space-y-3">
-                      {["Game Logic", "AI Systems", "Physics"].map((feature, index) => (
+                      {["AI Programming", "Scalable Architecture", "Code Optimization","Responsive Gameplay"].map((feature, index) => (
                         <div key={index} className="flex items-center gap-3 group/item">
                           <div className="relative">
                             <div className="absolute -inset-1 bg-blue-100/30 rounded-full opacity-0 group-hover/item:opacity-100 transition-opacity duration-300"></div>
@@ -796,13 +790,13 @@ const GameDevelopment = () => {
                     Sound & Music Design
                   </h3>
                   <p className="text-gray-600 leading-relaxed text-center group-hover:text-gray-800 transition-colors duration-400">
-                    Immersive sound effects and original music scores with Dolby Atmos integration that enhance the gaming experience.
+                   We provide end-to-end audio solutions custom-built for your game  including custom sound effects, original music composition, and professional voice overs.          
                   </p>
 
                   {/* Features List */}
                   <div className="mb-8 flex-grow mt-6">
                     <div className="space-y-3">
-                      {["Sound FX", "Background Music", "Voice Overs"].map((feature, index) => (
+                      {["Sound Design", "Voice Production", "Audio Integration","Music Design"].map((feature, index) => (
                         <div key={index} className="flex items-center gap-3 group/item">
                           <div className="relative">
                             <div className="absolute -inset-1 bg-violet-100/30 rounded-full opacity-0 group-hover/item:opacity-100 transition-opacity duration-300"></div>
@@ -868,13 +862,13 @@ const GameDevelopment = () => {
                     QA & Game Testing
                   </h3>
                   <p className="text-gray-600 leading-relaxed text-center group-hover:text-gray-800 transition-colors duration-400">
-                    Comprehensive quality assurance and testing to ensure flawless, bug-free gameplay across all devices and platforms.
+                   Thorough testing protocols covering bug tracking, performance benchmarking, and device compatibility  ensuring your game launches without issues.
                   </p>
 
                   {/* Features List */}
                   <div className="mb-8 flex-grow mt-6">
                     <div className="space-y-3">
-                      {["Bug Testing", "Performance QA", "Device Testing"].map((feature, index) => (
+                      {["Bug Tracking", "System Performance", "Stability Testing","Final Validation"].map((feature, index) => (
                         <div key={index} className="flex items-center gap-3 group/item">
                           <div className="relative">
                             <div className="absolute -inset-1 bg-emerald-100/30 rounded-full opacity-0 group-hover/item:opacity-100 transition-opacity duration-300"></div>
@@ -938,7 +932,7 @@ const GameDevelopment = () => {
         transition={{ duration: 0.6, delay: 0.2 }}
       >
         <p className="text-gray-700 text-sm sm:text-base md:text-lg leading-relaxed">
-          Showcasing our portfolio games with stunning visuals and engaging gameplay
+          Driven by innovation and a passion for digital excellence, we create experiences that entertain, inspire, and leave a lasting impact. 
         </p>
       </motion.div>
     </motion.div>
@@ -1116,7 +1110,7 @@ const GameDevelopment = () => {
         </span>
       </h2>
       <p className="text-gray-600 text-lg max-w-3xl mx-auto">
-        We use the latest technologies to build high-performance gaming experiences.
+        Our games are built using the latest technologies  ensuring smooth performance, stunning visuals, and seamless gameplay.
       </p>
     </div>
 
