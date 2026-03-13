@@ -196,8 +196,7 @@ const DesignCreativeServices = () => {
     animate={isHeroInView ? "visible" : "hidden"}
     transition={{ delay: 0.3 }}
   >
-    We create <span className="text-orange-600 font-medium">visually stunning designs</span> that 
-    elevate brands worldwide with creative innovation and artistic excellence.
+    We create <span className="text-orange-600 font-medium">impactful brand visuals </span> that communicate your story, connect with audiences, and elevate your presence  through thoughtful design and creative direction.
   </motion.p>
 
   <motion.div 
@@ -209,7 +208,7 @@ const DesignCreativeServices = () => {
   >
     <Link href="/contact-us" className="mt-auto">
       <Button className="group bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white px-4 sm:px-6 md:px-8 py-4 sm:py-5 md:py-6 text-sm sm:text-base md:text-lg rounded-xl w-full sm:w-auto">
-        Start Your Project
+        Start Creating
       </Button>
     </Link>
   </motion.div>
@@ -304,7 +303,7 @@ const DesignCreativeServices = () => {
 
               {/* Description */}
               <p className="text-base sm:text-lg md:text-xl text-gray-700 max-w-3xl mx-auto leading-relaxed">
-                We create visually stunning designs that elevate brands worldwide with creative innovation and artistic excellence.
+               We craft compelling brand visuals and design assets that communicate your story, strengthen identity, and leave a lasting impression across digital and print platforms.
               </p>
             </motion.div>
           </div>
@@ -353,16 +352,17 @@ const DesignCreativeServices = () => {
                   </div>
                   
                   <h3 className="text-2xl font-bold text-gray-900 mb-3 text-center group-hover:text-orange-700 transition-colors duration-400">
-                    Brand Identity Design
+                    Brand Identity 
                   </h3>
+                  <h3 className="text-2xl font-bold text-gray-900 mb-3 text-center group-hover:text-orange-700 transition-colors duration-400">Design</h3>
                   <p className="text-gray-600 leading-relaxed text-center group-hover:text-gray-800 transition-colors duration-400">
-                    Crafting unique brand identities with logos, colors, typography that inspire recognition.
+                    Distinctive brand identities built through strategic logo design, cohesive color palettes, and custom typography that ensure instant recognition.
                   </p>
 
                   {/* Features List */}
                   <div className="mb-8 flex-grow mt-6">
                     <div className="space-y-3">
-                      {["Logo Design", "Color Palette", "Typography System"].map((feature, index) => (
+                      {["Logo Design", "Color Palette", "Typography System","Brand Guidelines"].map((feature, index) => (
                         <div key={index} className="flex items-center gap-3 group/item">
                           <div className="relative">
                             <div className="absolute -inset-1 bg-orange-100/30 rounded-full opacity-0 group-hover/item:opacity-100 transition-opacity duration-300"></div>
@@ -377,7 +377,7 @@ const DesignCreativeServices = () => {
                   </div>
 
                   {/* Action Button */}
-                  <button className="w-full py-3.5 rounded-xl bg-gradient-to-r from-orange-500 to-amber-400 text-white font-semibold shadow-md hover:shadow-lg hover:from-orange-600 hover:to-amber-500 transition-all duration-400 relative overflow-hidden group-hover:scale-[1.02]">
+                  <button className="w-full mt-5 py-3.5 rounded-xl bg-gradient-to-r from-orange-500 to-amber-400 text-white font-semibold shadow-md hover:shadow-lg hover:from-orange-600 hover:to-amber-500 transition-all duration-400 relative overflow-hidden group-hover:scale-[1.02]">
                     <div className="absolute inset-0 bg-gradient-to-r from-orange-300/20 to-amber-300/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                     <span className="relative">Get Quote</span>
                   </button>
@@ -427,14 +427,16 @@ const DesignCreativeServices = () => {
                   <h3 className="text-2xl font-bold text-gray-900 mb-3 text-center group-hover:text-blue-700 transition-colors duration-400">
                     Marketing Collateral
                   </h3>
+                  <br/>
+                  
                   <p className="text-gray-600 leading-relaxed text-center group-hover:text-gray-800 transition-colors duration-400">
-                    Designing brochures, flyers, and banners that strengthen brand identity and impact.
+                   Professionally designed brochures, flyers, and banners that communicate your message effectively and reinforce brand presence across all marketing channels.
                   </p>
 
                   {/* Features List */}
                   <div className="mb-8 flex-grow mt-6">
                     <div className="space-y-3">
-                      {["Brochures", "Flyers Design", "Banners"].map((feature, index) => (
+                      {["Brochures", "Flyers Design", "Banners","Campaign Assets"].map((feature, index) => (
                         <div key={index} className="flex items-center gap-3 group/item">
                           <div className="relative">
                             <div className="absolute -inset-1 bg-blue-100/30 rounded-full opacity-0 group-hover/item:opacity-100 transition-opacity duration-300"></div>
@@ -449,7 +451,7 @@ const DesignCreativeServices = () => {
                   </div>
 
                   {/* Action Button */}
-                  <button className="w-full py-3.5 rounded-xl bg-gradient-to-r from-blue-500 to-cyan-400 text-white font-semibold shadow-md hover:shadow-lg hover:from-blue-600 hover:to-cyan-500 transition-all duration-400 relative overflow-hidden group-hover:scale-[1.02]">
+                  <button className="w-full py-3.5 mt-4 rounded-xl bg-gradient-to-r from-blue-500 to-cyan-400 text-white font-semibold shadow-md hover:shadow-lg hover:from-blue-600 hover:to-cyan-500 transition-all duration-400 relative overflow-hidden group-hover:scale-[1.02]">
                     <div className="absolute inset-0 bg-gradient-to-r from-blue-300/20 to-cyan-300/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                     <span className="relative">Get Quote</span>
                   </button>
@@ -500,13 +502,13 @@ const DesignCreativeServices = () => {
                     Website & App UI/UX Design
                   </h3>
                   <p className="text-gray-600 leading-relaxed text-center group-hover:text-gray-800 transition-colors duration-400">
-                    Designing intuitive web and app interfaces for engaging digital experiences.
+                   User-centered digital experiences through intuitive interface design, comprehensive user research, and interactive prototyping for web and mobile platforms.
                   </p>
 
                   {/* Features List */}
                   <div className="mb-8 flex-grow mt-6">
                     <div className="space-y-3">
-                      {["UI Design", "UX Research", "Prototyping"].map((feature, index) => (
+                      {["UI Design", "UX Research", "Prototyping","User Testing"].map((feature, index) => (
                         <div key={index} className="flex items-center gap-3 group/item">
                           <div className="relative">
                             <div className="absolute -inset-1 bg-orange-100/30 rounded-full opacity-0 group-hover/item:opacity-100 transition-opacity duration-300"></div>
@@ -521,7 +523,7 @@ const DesignCreativeServices = () => {
                   </div>
 
                   {/* Action Button */}
-                  <button className="w-full py-3.5 rounded-xl bg-gradient-to-r from-orange-500 to-amber-400 text-white font-semibold shadow-md hover:shadow-lg hover:from-orange-600 hover:to-amber-500 transition-all duration-400 relative overflow-hidden group-hover:scale-[1.02]">
+                  <button className="w-full py-3.5 mt-2 rounded-xl bg-gradient-to-r from-orange-500 to-amber-400 text-white font-semibold shadow-md hover:shadow-lg hover:from-orange-600 hover:to-amber-500 transition-all duration-400 relative overflow-hidden group-hover:scale-[1.02]">
                     <div className="absolute inset-0 bg-gradient-to-r from-orange-300/20 to-amber-300/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                     <span className="relative">Get Quote</span>
                   </button>
@@ -572,13 +574,13 @@ const DesignCreativeServices = () => {
                     Infographics, Posters & Stationery
                   </h3>
                   <p className="text-gray-600 leading-relaxed text-center group-hover:text-gray-800 transition-colors duration-400">
-                    Creating infographics, posters that visually communicate impactful stories.
+                    Visually compelling infographics, impactful posters, and professional stationery that communicate complex ideas with clarity and style.s.
                   </p>
 
                   {/* Features List */}
                   <div className="mb-8 flex-grow mt-6">
                     <div className="space-y-3">
-                      {["Infographics", "Poster Design", "Corporate Stationery"].map((feature, index) => (
+                      {["Infographics", "Poster Design", "Corporate Stationery","Data Visualization"].map((feature, index) => (
                         <div key={index} className="flex items-center gap-3 group/item">
                           <div className="relative">
                             <div className="absolute -inset-1 bg-blue-100/30 rounded-full opacity-0 group-hover/item:opacity-100 transition-opacity duration-300"></div>
@@ -593,7 +595,7 @@ const DesignCreativeServices = () => {
                   </div>
 
                   {/* Action Button */}
-                  <button className="w-full py-3.5 rounded-xl bg-gradient-to-r from-blue-500 to-cyan-400 text-white font-semibold shadow-md hover:shadow-lg hover:from-blue-600 hover:to-cyan-500 transition-all duration-400 relative overflow-hidden group-hover:scale-[1.02]">
+                  <button className="w-full py-3.5 mt-5 rounded-xl bg-gradient-to-r from-blue-500 to-cyan-400 text-white font-semibold shadow-md hover:shadow-lg hover:from-blue-600 hover:to-cyan-500 transition-all duration-400 relative overflow-hidden group-hover:scale-[1.02]">
                     <div className="absolute inset-0 bg-gradient-to-r from-blue-300/20 to-cyan-300/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                     <span className="relative">Get Quote</span>
                   </button>
@@ -644,13 +646,13 @@ const DesignCreativeServices = () => {
                     Product Packaging & Label Design
                   </h3>
                   <p className="text-gray-600 leading-relaxed text-center group-hover:text-gray-800 transition-colors duration-400">
-                    Creating product packaging and labels that attract attention and express identity.
+                    Eye-catching packaging and label designs that capture attention on shelves, communicate product value, and maintain brand consistency.
                   </p>
 
                   {/* Features List */}
                   <div className="mb-8 flex-grow mt-6">
                     <div className="space-y-3">
-                      {["Product Packaging", "Label Design", "Brand Consistency"].map((feature, index) => (
+                      {["Product Packaging", "Label Design", "Brand Consistency","Structural Design"].map((feature, index) => (
                         <div key={index} className="flex items-center gap-3 group/item">
                           <div className="relative">
                             <div className="absolute -inset-1 bg-violet-100/30 rounded-full opacity-0 group-hover/item:opacity-100 transition-opacity duration-300"></div>
@@ -665,7 +667,7 @@ const DesignCreativeServices = () => {
                   </div>
 
                   {/* Action Button */}
-                  <button className="w-full py-3.5 rounded-xl bg-gradient-to-r from-violet-500 to-purple-400 text-white font-semibold shadow-md hover:shadow-lg hover:from-violet-600 hover:to-purple-500 transition-all duration-400 relative overflow-hidden group-hover:scale-[1.02]">
+                  <button className="w-full py-3.5 mt-5 rounded-xl bg-gradient-to-r from-violet-500 to-purple-400 text-white font-semibold shadow-md hover:shadow-lg hover:from-violet-600 hover:to-purple-500 transition-all duration-400 relative overflow-hidden group-hover:scale-[1.02]">
                     <div className="absolute inset-0 bg-gradient-to-r from-violet-300/20 to-purple-300/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                     <span className="relative">Get Quote</span>
                   </button>
@@ -716,13 +718,13 @@ const DesignCreativeServices = () => {
                     Motion Graphics & Animated Visuals
                   </h3>
                   <p className="text-gray-600 leading-relaxed text-center group-hover:text-gray-800 transition-colors duration-400">
-                    Creating motion graphics and animations that enhance storytelling and engagement.
+                    Dynamic motion graphics and animated content that bring stories to life, increase engagement, and strengthen brand messaging across digital platforms.
                   </p>
 
                   {/* Features List */}
                   <div className="mb-8 flex-grow mt-6">
                     <div className="space-y-3">
-                      {["Motion Graphics", "Animated Videos", "Visual Storytelling"].map((feature, index) => (
+                      {["Motion Graphics", "Animated Videos", "Visual Storytelling","Social Animations"].map((feature, index) => (
                         <div key={index} className="flex items-center gap-3 group/item">
                           <div className="relative">
                             <div className="absolute -inset-1 bg-emerald-100/30 rounded-full opacity-0 group-hover/item:opacity-100 transition-opacity duration-300"></div>

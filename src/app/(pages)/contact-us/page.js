@@ -2,7 +2,7 @@ import React from 'react'
 import Contact from './Contact'
 
 export const metadata = {
-  title: 'contact',
+  title: 'Contact Us - Eraflip Tech',
   description: 'This is a static meta description for my website homepage. Explore our services and features.',
 }
 const page = () => {

@@ -197,8 +197,7 @@ const SocialMediaManagement = () => {
     animate={isHeroInView ? "visible" : "hidden"}
     transition={{ delay: 0.3 }}
   >
-    We build powerful social media presence that drives engagement, grows communities, and boosts brand visibility worldwide.
-  </motion.p>
+    From content creation to community engagement <span className="text-orange-600 font-medium">we manage strategy,</span> content, audience targeting, influencer collaborations, paid ads, performance tracking, competitor analysis, and reporting  delivering authentic connections, brand visibility, and measurable growth. </motion.p>
 
   <motion.div 
     className="flex flex-wrap gap-3 sm:gap-4 mb-8 md:mb-10 justify-center md:justify-start w-full"
@@ -295,7 +294,7 @@ const SocialMediaManagement = () => {
 
               {/* Description */}
               <p className="text-base sm:text-lg md:text-xl text-gray-700 max-w-3xl mx-auto leading-relaxed">
-                We build powerful social media presence that drives engagement, grows communities, and boosts brand visibility worldwide.
+                We deliver end-to-end social media solutions that build powerful brand presence, drive meaningful engagement, and grow loyal communities worldwide. Every strategy is designed to connect, engage, and deliver measurable results.
               </p>
             </motion.div>
           </div>
@@ -347,13 +346,13 @@ const SocialMediaManagement = () => {
                     Social Media Strategy & Planning
                   </h3>
                   <p className="text-gray-600 leading-relaxed text-center group-hover:text-gray-800 transition-colors duration-400">
-                    Data-driven approach to boost online presence and engagement across all platforms.
+                   Data-driven strategies built on deep audience insights and platform expertise  ensuring every post, campaign, and interaction boosts visibility, drives engagement, and delivers measurable business growth.
                   </p>
 
                   {/* Features List */}
                   <div className="mb-8 flex-grow mt-6">
                     <div className="space-y-3">
-                      {["Strategy Development", "Platform Analysis", "Audience Research"].map((feature, index) => (
+                      {["Strategy Development", "Platform Analysis", "Audience Research","	Competitor Benchmarking"].map((feature, index) => (
                         <div key={index} className="flex items-center gap-3 group/item">
                           <div className="relative">
                             <div className="absolute -inset-1 bg-orange-100/30 rounded-full opacity-0 group-hover/item:opacity-100 transition-opacity duration-300"></div>
@@ -419,13 +418,13 @@ const SocialMediaManagement = () => {
                     Content Calendar & Publishing
                   </h3>
                   <p className="text-gray-600 leading-relaxed text-center group-hover:text-gray-800 transition-colors duration-400">
-                    Organized content scheduling and timely publishing for strong brand consistency.
+                   Strategic content scheduling and timely publishing that ensures consistent brand messaging across all platforms. Every post is planned, optimized, and delivered to maximize engagement and maintain brand cohesion.
                   </p>
 
                   {/* Features List */}
                   <div className="mb-8 flex-grow mt-6">
                     <div className="space-y-3">
-                      {["Content Planning", "Scheduling", "Multi-platform Publishing"].map((feature, index) => (
+                      {["Content Planning", "Scheduling", "Multi-platform Publishing","Performance Monitoring "].map((feature, index) => (
                         <div key={index} className="flex items-center gap-3 group/item">
                           <div className="relative">
                             <div className="absolute -inset-1 bg-blue-100/30 rounded-full opacity-0 group-hover/item:opacity-100 transition-opacity duration-300"></div>
@@ -491,13 +490,13 @@ const SocialMediaManagement = () => {
                     Community Engagement & Page Management
                   </h3>
                   <p className="text-gray-600 leading-relaxed text-center group-hover:text-gray-800 transition-colors duration-400">
-                    Building active communities and managing pages effectively for brand growth.
+                    Building active communities and managing pages effectively for sustained brand growth. We turn followers into loyal advocates through authentic engagement and consistent page management.
                   </p>
 
                   {/* Features List */}
                   <div className="mb-8 flex-grow mt-6">
                     <div className="space-y-3">
-                      {["Community Building", "Page Moderation", "Engagement Tracking"].map((feature, index) => (
+                      {["Community Growth", "Page Management", "Interaction Analytics","Response Management "].map((feature, index) => (
                         <div key={index} className="flex items-center gap-3 group/item">
                           <div className="relative">
                             <div className="absolute -inset-1 bg-orange-100/30 rounded-full opacity-0 group-hover/item:opacity-100 transition-opacity duration-300"></div>
@@ -563,13 +562,13 @@ const SocialMediaManagement = () => {
                     Profile Optimization & Branding
                   </h3>
                   <p className="text-gray-600 leading-relaxed text-center group-hover:text-gray-800 transition-colors duration-400">
-                    Strengthening profiles for consistent, impactful, and memorable brand identity.
+                    Strengthening your social media profiles for consistent, impactful, and memorable brand identity. We ensure every element  from visuals to messaging  reflects your brand's true essence across all platforms.
                   </p>
 
                   {/* Features List */}
                   <div className="mb-8 flex-grow mt-6">
                     <div className="space-y-3">
-                      {["Profile Enhancement", "Brand Consistency", "Visual Identity"].map((feature, index) => (
+                      {["Profile Enhancement", "Brand Consistency", "Visual Identity","Link Strategy"].map((feature, index) => (
                         <div key={index} className="flex items-center gap-3 group/item">
                           <div className="relative">
                             <div className="absolute -inset-1 bg-blue-100/30 rounded-full opacity-0 group-hover/item:opacity-100 transition-opacity duration-300"></div>
@@ -584,7 +583,7 @@ const SocialMediaManagement = () => {
                   </div>
 
                   {/* Action Button */}
-                  <button className="w-full py-3.5 rounded-xl bg-gradient-to-r from-blue-500 to-cyan-400 text-white font-semibold shadow-md hover:shadow-lg hover:from-blue-600 hover:to-cyan-500 transition-all duration-400 relative overflow-hidden group-hover:scale-[1.02]">
+                  <button className="w-full py-3.5 mt-6 rounded-xl bg-gradient-to-r from-blue-500 to-cyan-400 text-white font-semibold shadow-md hover:shadow-lg hover:from-blue-600 hover:to-cyan-500 transition-all duration-400 relative overflow-hidden group-hover:scale-[1.02]">
                     <div className="absolute inset-0 bg-gradient-to-r from-blue-300/20 to-cyan-300/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                     <span className="relative">Get Quote</span>
                   </button>
@@ -635,13 +634,13 @@ const SocialMediaManagement = () => {
                     Hashtag Research & Trend Mapping
                   </h3>
                   <p className="text-gray-600 leading-relaxed text-center group-hover:text-gray-800 transition-colors duration-400">
-                    Discovering top hashtags and trending insights for maximum reach and visibility.
+                    Strategic hashtag research and trend analysis to maximize your content's reach and visibility. We identify high-performing hashtags and emerging trends that connect your brand with the right audience at the right time.
                   </p>
 
                   {/* Features List */}
                   <div className="mb-8 flex-grow mt-6">
                     <div className="space-y-3">
-                      {["Hashtag Analysis", "Trend Identification", "Content Optimization"].map((feature, index) => (
+                      {["Hashtag Analysis", "Trend Identification", "Platform Optimization","Reach Maximization"].map((feature, index) => (
                         <div key={index} className="flex items-center gap-3 group/item">
                           <div className="relative">
                             <div className="absolute -inset-1 bg-violet-100/30 rounded-full opacity-0 group-hover/item:opacity-100 transition-opacity duration-300"></div>
@@ -656,7 +655,7 @@ const SocialMediaManagement = () => {
                   </div>
 
                   {/* Action Button */}
-                  <button className="w-full py-3.5 rounded-xl bg-gradient-to-r from-violet-500 to-purple-400 text-white font-semibold shadow-md hover:shadow-lg hover:from-violet-600 hover:to-purple-500 transition-all duration-400 relative overflow-hidden group-hover:scale-[1.02]">
+                  <button className="w-full py-3.5 mt-6 rounded-xl bg-gradient-to-r from-violet-500 to-purple-400 text-white font-semibold shadow-md hover:shadow-lg hover:from-violet-600 hover:to-purple-500 transition-all duration-400 relative overflow-hidden group-hover:scale-[1.02]">
                     <div className="absolute inset-0 bg-gradient-to-r from-violet-300/20 to-purple-300/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                     <span className="relative">Get Quote</span>
                   </button>
@@ -707,13 +706,13 @@ const SocialMediaManagement = () => {
                     Analytics & Monthly Performance Reports
                   </h3>
                   <p className="text-gray-600 leading-relaxed text-center group-hover:text-gray-800 transition-colors duration-400">
-                    Tracking insights with detailed monthly performance reports and data analysis.
+                    Data-driven insights and comprehensive reporting to track performance, measure growth, and refine strategies for continuous improvement. Every report is designed to turn raw data into a clear roadmap for future success.
                   </p>
 
                   {/* Features List */}
                   <div className="mb-8 flex-grow mt-6">
                     <div className="space-y-3">
-                      {["Performance Tracking", "Data Analysis", "Insightful Reporting"].map((feature, index) => (
+                      {["Real-Time Performance Tracking", "In-Depth Data Analysis", "Comprehensive Reporting","Strategic Roadmap"].map((feature, index) => (
                         <div key={index} className="flex items-center gap-3 group/item">
                           <div className="relative">
                             <div className="absolute -inset-1 bg-emerald-100/30 rounded-full opacity-0 group-hover/item:opacity-100 transition-opacity duration-300"></div>

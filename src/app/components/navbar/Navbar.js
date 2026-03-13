@@ -242,7 +242,7 @@ const Navbar = () => {
                 isActive("/about-us") ? "text-white bg-orange-500 rounded-lg px-4" : "text-gray-300 hover:text-white hover:bg-gray-800 rounded-lg hover:px-4"
               } transition-all duration-300`}
             >
-              About
+              About Us
             </Link>
 
             <div className="border-b border-gray-700">
@@ -288,7 +288,7 @@ const Navbar = () => {
                   : "bg-orange-500 text-white hover:bg-orange-600 hover:shadow-md"
               } transition-all duration-300`}
             >
-              Contact
+              Contact Us
             </Link>
           </div>
         </div>

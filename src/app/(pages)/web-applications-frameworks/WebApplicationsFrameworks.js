@@ -196,8 +196,7 @@ const WebApplicationsFrameworks = () => {
     animate={isHeroInView ? "visible" : "hidden"}
     transition={{ delay: 0.3 }}
   >
-    We build <span className="text-orange-600 font-medium">high-performance web applications</span> using 
-    modern frameworks that drive business growth worldwide with cutting-edge technology.
+    Future-ready<span className="text-orange-600 font-medium"> high-performance web applications</span> with React, Node.js, Vue, and Django. From concept to deployment, we deliver high-performance solutions engineered for growth and reliability.
   </motion.p>
 
   <motion.div 
@@ -295,7 +294,7 @@ const WebApplicationsFrameworks = () => {
 
               {/* Description */}
               <p className="text-base sm:text-lg md:text-xl text-gray-700 max-w-3xl mx-auto leading-relaxed">
-                We build high-performance web applications using modern frameworks that drive business growth worldwide with cutting-edge technology.
+               We deliver end-to-end web application solutions that empower businesses worldwide  fusing cutting-edge technology with intuitive design to build platforms that perform, scale, and endure.
               </p>
             </motion.div>
           </div>
@@ -346,14 +345,14 @@ const WebApplicationsFrameworks = () => {
                   <h3 className="text-2xl font-bold text-gray-900 mb-3 text-center group-hover:text-orange-700 transition-colors duration-400">
                     Laravel (PHP), Python (Django Flask) Development
                   </h3>
-                  <p className="text-gray-600 leading-relaxed text-center group-hover:text-gray-800 transition-colors duration-400">
-                    Building secure, scalable, and high-performing web applications with modern frameworks like Laravel, Django, and Flask.
+                  <p className="text-gray-600 text-md leading-relaxed text-center group-hover:text-gray-800 transition-colors duration-400">
+                    Building secure, scalable, and high-performance web applications with Laravel, Django, and Flask. From custom apps to enterprise platforms, we deliver robust back-end solutions that handle complex business logic with efficiency and reliability.     
                   </p>
 
                   {/* Features List */}
                   <div className="mb-8 flex-grow mt-6">
                     <div className="space-y-3">
-                      {["Laravel/PHP", "Django/Flask", "Secure & Scalable"].map((feature, index) => (
+                      {["RESTful API development", "High-performance backends with Django/Flask", "Secure authentication & authorization","Database-driven apps with optimized queries"].map((feature, index) => (
                         <div key={index} className="flex items-center gap-3 group/item">
                           <div className="relative">
                             <div className="absolute -inset-1 bg-orange-100/30 rounded-full opacity-0 group-hover/item:opacity-100 transition-opacity duration-300"></div>
@@ -418,14 +417,16 @@ const WebApplicationsFrameworks = () => {
                   <h3 className="text-2xl font-bold text-gray-900 mb-3 text-center group-hover:text-blue-700 transition-colors duration-400">
                     MERN & MEAN Stack Applications
                   </h3>
+                  <br></br>
+                  <br/>
                   <p className="text-gray-600 leading-relaxed text-center group-hover:text-gray-800 transition-colors duration-400">
-                    Creating dynamic, fast, and scalable full-stack web solutions with modern JavaScript frameworks and libraries.
+                    Creating dynamic, fast, and scalable full-stack web solutions with modern JavaScript frameworks. Our MERN and MEAN stack expertise delivers seamless single-page applications, real-time platforms, and enterprise-grade solutions with a unified JavaScript ecosystem.
                   </p>
 
                   {/* Features List */}
                   <div className="mb-8 flex-grow mt-6">
                     <div className="space-y-3">
-                      {["MERN Stack", "MEAN Stack", "Full Stack"].map((feature, index) => (
+                      {["Full-stack JavaScript development", "Progressive Web Apps ", "Scalable API architecture","Real-time applications with WebSockets  "].map((feature, index) => (
                         <div key={index} className="flex items-center gap-3 group/item">
                           <div className="relative">
                             <div className="absolute -inset-1 bg-blue-100/30 rounded-full opacity-0 group-hover/item:opacity-100 transition-opacity duration-300"></div>
@@ -440,7 +441,7 @@ const WebApplicationsFrameworks = () => {
                   </div>
 
                   {/* Action Button */}
-                  <button className="w-full py-3.5 rounded-xl bg-gradient-to-r from-blue-500 to-cyan-400 text-white font-semibold shadow-md hover:shadow-lg hover:from-blue-600 hover:to-cyan-500 transition-all duration-400 relative overflow-hidden group-hover:scale-[1.02]">
+                  <button className="w-full py-3.5  rounded-xl bg-gradient-to-r from-blue-500 to-cyan-400 text-white font-semibold shadow-md hover:shadow-lg hover:from-blue-600 hover:to-cyan-500 transition-all duration-400 relative overflow-hidden group-hover:scale-[1.02]">
                     <div className="absolute inset-0 bg-gradient-to-r from-blue-300/20 to-cyan-300/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                     <span className="relative">Get Quote</span>
                   </button>
@@ -490,14 +491,15 @@ const WebApplicationsFrameworks = () => {
                   <h3 className="text-2xl font-bold text-gray-900 mb-3 text-center group-hover:text-orange-700 transition-colors duration-400">
                     Website & App UI/UX Design
                   </h3>
+                  <br/>
                   <p className="text-gray-600 leading-relaxed text-center group-hover:text-gray-800 transition-colors duration-400">
-                    Designing intuitive and beautiful user interfaces that enhance user experience and engagement across all platforms.
+                    Designing intuitive and beautiful user interfaces that enhance user experience and engagement across all platforms. We create user-centric designs that not only look stunning but also drive conversions and user satisfaction.
                   </p>
 
                   {/* Features List */}
                   <div className="mb-8 flex-grow mt-6">
                     <div className="space-y-3">
-                      {["UI Design", "UX Research", "Prototyping"].map((feature, index) => (
+                      {["Interactive prototyping & wireframing", "Responsive & accessible design", "Design systems & component libraries","Usability testing & optimization"].map((feature, index) => (
                         <div key={index} className="flex items-center gap-3 group/item">
                           <div className="relative">
                             <div className="absolute -inset-1 bg-orange-100/30 rounded-full opacity-0 group-hover/item:opacity-100 transition-opacity duration-300"></div>
@@ -512,7 +514,7 @@ const WebApplicationsFrameworks = () => {
                   </div>
 
                   {/* Action Button */}
-                  <button className="w-full py-3.5 rounded-xl bg-gradient-to-r from-orange-500 to-amber-400 text-white font-semibold shadow-md hover:shadow-lg hover:from-orange-600 hover:to-amber-500 transition-all duration-400 relative overflow-hidden group-hover:scale-[1.02]">
+                  <button className="w-full py-3.5 mt-6 rounded-xl bg-gradient-to-r from-orange-500 to-amber-400 text-white font-semibold shadow-md hover:shadow-lg hover:from-orange-600 hover:to-amber-500 transition-all duration-400 relative overflow-hidden group-hover:scale-[1.02]">
                     <div className="absolute inset-0 bg-gradient-to-r from-orange-300/20 to-amber-300/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                     <span className="relative">Get Quote</span>
                   </button>
@@ -563,13 +565,13 @@ const WebApplicationsFrameworks = () => {
                     Custom API & Portal Development
                   </h3>
                   <p className="text-gray-600 leading-relaxed text-center group-hover:text-gray-800 transition-colors duration-400">
-                    Developing seamless, secure, and efficient custom integrations, web portals, and API solutions.
+                   Developing seamless, secure, and efficient custom integrations from robust RESTful APIs to feature-rich web portals. We connect your applications with third-party services, payment gateways, CRMs, and more.
                   </p>
 
                   {/* Features List */}
                   <div className="mb-8 flex-grow mt-6">
                     <div className="space-y-3">
-                      {["REST APIs", "Web Portals", "Integration"].map((feature, index) => (
+                      {["RESTful & GraphQL API development", "Custom web portals & dashboards", "API security & rate limiting","Legacy system integration"].map((feature, index) => (
                         <div key={index} className="flex items-center gap-3 group/item">
                           <div className="relative">
                             <div className="absolute -inset-1 bg-blue-100/30 rounded-full opacity-0 group-hover/item:opacity-100 transition-opacity duration-300"></div>
@@ -635,13 +637,13 @@ const WebApplicationsFrameworks = () => {
                     Database Integration & Backend Systems
                   </h3>
                   <p className="text-gray-600 leading-relaxed text-center group-hover:text-gray-800 transition-colors duration-400">
-                    Ensuring smooth data flow with robust backend architecture, database management, and data security.
+                    Ensuring smooth data flow with robust backend architecture  from database design to data security. We build efficient, scalable backend systems that handle complex data operations with integrity and speed.
                   </p>
 
                   {/* Features List */}
                   <div className="mb-8 flex-grow mt-6">
                     <div className="space-y-3">
-                      {["Database Design", "Backend Systems", "Data Security"].map((feature, index) => (
+                      {["SQL database design", "NoSQL database solutions", "Data migration & synchronization","Backup & recovery strategies"].map((feature, index) => (
                         <div key={index} className="flex items-center gap-3 group/item">
                           <div className="relative">
                             <div className="absolute -inset-1 bg-violet-100/30 rounded-full opacity-0 group-hover/item:opacity-100 transition-opacity duration-300"></div>
@@ -707,13 +709,13 @@ const WebApplicationsFrameworks = () => {
                     Cloud Integration & Deployment
                   </h3>
                   <p className="text-gray-600 leading-relaxed text-center group-hover:text-gray-800 transition-colors duration-400">
-                    Deploying applications to cloud platforms with scalable infrastructure, CI/CD pipelines, and DevOps practices.
+                    Deploying applications to scalable cloud infrastructure with automated CI/CD and DevOps best practices. We ensure your applications are production-ready, highly available, and cost-efficient
                   </p>
 
                   {/* Features List */}
                   <div className="mb-8 flex-grow mt-6">
                     <div className="space-y-3">
-                      {["Cloud Deployment", "CI/CD Pipelines", "DevOps"].map((feature, index) => (
+                      {["Cloud Deployment", "Auto-scaling & load balancing", "Monitoring & logging","Infrastructure according to Code"].map((feature, index) => (
                         <div key={index} className="flex items-center gap-3 group/item">
                           <div className="relative">
                             <div className="absolute -inset-1 bg-emerald-100/30 rounded-full opacity-0 group-hover/item:opacity-100 transition-opacity duration-300"></div>

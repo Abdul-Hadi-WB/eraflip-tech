@@ -196,8 +196,7 @@ const DigitalMarketingPPCCampaigns = () => {
     animate={isHeroInView ? "visible" : "hidden"}
     transition={{ delay: 0.3 }}
   >
-    We drive <span className="text-orange-600 font-medium">measurable results</span> with 
-    data-driven digital marketing strategies that maximize ROI and grow your business worldwide.
+    From strategy to execution   <span className="text-orange-600 font-medium">we manage every stage </span> stage including campaign planning, ad creative, PPC management, SEO, content creation, social media engagement, performance tracking, and optimization  delivering measurable results that grow your business.
   </motion.p>
 
   <motion.div 
@@ -209,7 +208,7 @@ const DigitalMarketingPPCCampaigns = () => {
   >
     <Link href="/contact-us" className="mt-auto">
       <Button className="group bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white px-4 sm:px-6 md:px-8 py-4 sm:py-5 md:py-6 text-sm sm:text-base md:text-lg rounded-xl w-full sm:w-auto">
-        Launch Campaign
+        Launch Your Campaign
       </Button>
     </Link>
   </motion.div>
@@ -295,7 +294,7 @@ const DigitalMarketingPPCCampaigns = () => {
 
               {/* Description */}
               <p className="text-base sm:text-lg md:text-xl text-gray-700 max-w-3xl mx-auto leading-relaxed">
-                We drive measurable results with data-driven digital marketing strategies that maximize ROI and grow your business worldwide.
+               We deliver data-driven digital marketing solutions that captivate audiences worldwide fusing creative strategy with performance analytics to build campaigns that engage, convert, and endure.
               </p>
             </motion.div>
           </div>
@@ -347,13 +346,13 @@ const DigitalMarketingPPCCampaigns = () => {
                     Meta (Facebook & Instagram) Ads
                   </h3>
                   <p className="text-gray-600 leading-relaxed text-center group-hover:text-gray-800 transition-colors duration-400">
-                    Powerful Meta ads driving engagement, leads, and measurable growth across Facebook and Instagram.
+                    We deliver high-performance Meta advertising solutions that drive engagement, quality leads, and measurable growth. Every campaign is powered by precise audience targeting, compelling creative, and continuous optimization.
                   </p>
 
                   {/* Features List */}
                   <div className="mb-8 flex-grow mt-6">
                     <div className="space-y-3">
-                      {["Facebook Ads", "Instagram Ads", "Engagement Growth"].map((feature, index) => (
+                      {["Audience targeting & retargeting", "Strategic Facebook & Instagram ad campaigns", "Budget optimization & bid management","Performance tracking & conversion analytics"].map((feature, index) => (
                         <div key={index} className="flex items-center gap-3 group/item">
                           <div className="relative">
                             <div className="absolute -inset-1 bg-orange-100/30 rounded-full opacity-0 group-hover/item:opacity-100 transition-opacity duration-300"></div>
@@ -419,13 +418,13 @@ const DigitalMarketingPPCCampaigns = () => {
                     Google Ads (Search, Display, YouTube)
                   </h3>
                   <p className="text-gray-600 leading-relaxed text-center group-hover:text-gray-800 transition-colors duration-400">
-                    Targeted Google Ads across Search, Display, and YouTube to maximize reach and conversions.
+                    End-to-end Google Ads management across Search, Display, and YouTube  combining strategic keyword targeting, compelling ad creatives, and continuous optimization to maximize reach, drive qualified traffic, and boost conversions.
                   </p>
 
                   {/* Features List */}
                   <div className="mb-8 flex-grow mt-6">
                     <div className="space-y-3">
-                      {["Search Ads", "Display Ads", "YouTube Ads"].map((feature, index) => (
+                      {["Keyword research & search campaign management", "Display network advertising & banner creatives", "YouTube video ad campaigns","Landing page optimization "].map((feature, index) => (
                         <div key={index} className="flex items-center gap-3 group/item">
                           <div className="relative">
                             <div className="absolute -inset-1 bg-blue-100/30 rounded-full opacity-0 group-hover/item:opacity-100 transition-opacity duration-300"></div>
@@ -440,7 +439,7 @@ const DigitalMarketingPPCCampaigns = () => {
                   </div>
 
                   {/* Action Button */}
-                  <button className="w-full py-3.5 rounded-xl bg-gradient-to-r from-blue-500 to-cyan-400 text-white font-semibold shadow-md hover:shadow-lg hover:from-blue-600 hover:to-cyan-500 transition-all duration-400 relative overflow-hidden group-hover:scale-[1.02]">
+                  <button className="w-full py-3.5 mt-6 rounded-xl bg-gradient-to-r from-blue-500 to-cyan-400 text-white font-semibold shadow-md hover:shadow-lg hover:from-blue-600 hover:to-cyan-500 transition-all duration-400 relative overflow-hidden group-hover:scale-[1.02]">
                     <div className="absolute inset-0 bg-gradient-to-r from-blue-300/20 to-cyan-300/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                     <span className="relative">Get Quote</span>
                   </button>
@@ -491,13 +490,13 @@ const DigitalMarketingPPCCampaigns = () => {
                     LinkedIn & TikTok Campaigns
                   </h3>
                   <p className="text-gray-600 leading-relaxed text-center group-hover:text-gray-800 transition-colors duration-400">
-                    Engaging LinkedIn and TikTok campaigns to boost brand awareness, leads, and audience growth.
+                   Full-service LinkedIn and TikTok advertising from audience strategy to content production. Campaigns designed to build brand authority, generate quality business leads, and connect authentically with younger demographics.
                   </p>
 
                   {/* Features List */}
                   <div className="mb-8 flex-grow mt-6">
                     <div className="space-y-3">
-                      {["LinkedIn Ads", "TikTok Campaigns", "Brand Awareness"].map((feature, index) => (
+                      {["LinkedIn sponsored content & lead gen forms", "Audience segmentation & targeting", "Creative strategy & content production","Performance monitoring & optimization"].map((feature, index) => (
                         <div key={index} className="flex items-center gap-3 group/item">
                           <div className="relative">
                             <div className="absolute -inset-1 bg-orange-100/30 rounded-full opacity-0 group-hover/item:opacity-100 transition-opacity duration-300"></div>
@@ -557,13 +556,13 @@ const DigitalMarketingPPCCampaigns = () => {
                     Remarketing & Conversion Tracking
                   </h3>
                   <p className="text-gray-600 leading-relaxed text-center group-hover:text-gray-800 transition-colors duration-400">
-                    Smart remarketing and conversion tracking to re-engage audiences and maximize ROI effectively.
+                  Data-driven remarketing strategies integrated with enterprise-grade conversion tracking  re-engaging lost visitors, nurturing high-intent audiences, and delivering full-funnel visibility to maximize advertising efficiency.             
                   </p>
 
                   {/* Features List */}
                   <div className="mb-8 flex-grow mt-6">
                     <div className="space-y-3">
-                      {["Remarketing", "Conversion Tracking", "ROI Maximization"].map((feature, index) => (
+                      {["Accurate Conversion Tracking", "Right Audience Targeting ", "Cross-Device Tracking ","ROI Maximization "].map((feature, index) => (
                         <div key={index} className="flex items-center gap-3 group/item">
                           <div className="relative">
                             <div className="absolute -inset-1 bg-blue-100/30 rounded-full opacity-0 group-hover/item:opacity-100 transition-opacity duration-300"></div>
@@ -629,13 +628,13 @@ const DigitalMarketingPPCCampaigns = () => {
                     Campaign Strategy & A/B Testing
                   </h3>
                   <p className="text-gray-600 leading-relaxed text-center group-hover:text-gray-800 transition-colors duration-400">
-                    Data-driven campaign strategies and A/B testing to optimize performance and boost conversions.
+                   Data-backed campaign strategies combined with systematic A/B testing continuously refining creatives, audiences, and messaging to improve performance, increase conversions, and maximize return on ad spend.
                   </p>
 
                   {/* Features List */}
                   <div className="mb-8 flex-grow mt-6">
                     <div className="space-y-3">
-                      {["Strategy Planning", "A/B Testing", "Performance Optimization"].map((feature, index) => (
+                      {["Creative & Copy Testing ", "Continuous Optimization & Reporting", "Performance-driven refinements","Clear ROI measurement & insights"].map((feature, index) => (
                         <div key={index} className="flex items-center gap-3 group/item">
                           <div className="relative">
                             <div className="absolute -inset-1 bg-violet-100/30 rounded-full opacity-0 group-hover/item:opacity-100 transition-opacity duration-300"></div>
@@ -650,7 +649,7 @@ const DigitalMarketingPPCCampaigns = () => {
                   </div>
 
                   {/* Action Button */}
-                  <button className="w-full py-3.5 rounded-xl bg-gradient-to-r from-violet-500 to-purple-400 text-white font-semibold shadow-md hover:shadow-lg hover:from-violet-600 hover:to-purple-500 transition-all duration-400 relative overflow-hidden group-hover:scale-[1.02]">
+                  <button className="w-full py-3.5 mt-6 rounded-xl bg-gradient-to-r from-violet-500 to-purple-400 text-white font-semibold shadow-md hover:shadow-lg hover:from-violet-600 hover:to-purple-500 transition-all duration-400 relative overflow-hidden group-hover:scale-[1.02]">
                     <div className="absolute inset-0 bg-gradient-to-r from-violet-300/20 to-purple-300/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                     <span className="relative">Get Quote</span>
                   </button>
@@ -701,13 +700,13 @@ const DigitalMarketingPPCCampaigns = () => {
                     Budget Optimization & ROI Reporting
                   </h3>
                   <p className="text-gray-600 leading-relaxed text-center group-hover:text-gray-800 transition-colors duration-400">
-                    Strategic budget optimization and ROI reporting to maximize performance and marketing efficiency.
+                  Strategic budget management paired with transparent ROI analytics ensuring every marketing rupee is optimized for maximum performance, measured for accountability, and aligned with business growth objectives.
                   </p>
 
                   {/* Features List */}
                   <div className="mb-8 flex-grow mt-6">
                     <div className="space-y-3">
-                      {["Budget Management", "ROI Reporting", "Cost Optimization"].map((feature, index) => (
+                      {["Optimized Budget Allocation ", "Real-Time Monitoring", "Data-Backed Decisions","Custom Performance Dashboards"].map((feature, index) => (
                         <div key={index} className="flex items-center gap-3 group/item">
                           <div className="relative">
                             <div className="absolute -inset-1 bg-emerald-100/30 rounded-full opacity-0 group-hover/item:opacity-100 transition-opacity duration-300"></div>
@@ -722,7 +721,7 @@ const DigitalMarketingPPCCampaigns = () => {
                   </div>
 
                   {/* Action Button */}
-                  <button className="w-full py-3.5 rounded-xl bg-gradient-to-r from-emerald-500 to-teal-400 text-white font-semibold shadow-md hover:shadow-lg hover:from-emerald-600 hover:to-teal-500 transition-all duration-400 relative overflow-hidden group-hover:scale-[1.02]">
+                  <button className="w-full py-3.5 mt-6 rounded-xl bg-gradient-to-r from-emerald-500 to-teal-400 text-white font-semibold shadow-md hover:shadow-lg hover:from-emerald-600 hover:to-teal-500 transition-all duration-400 relative overflow-hidden group-hover:scale-[1.02]">
                     <div className="absolute inset-0 bg-gradient-to-r from-emerald-300/20 to-teal-300/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                     <span className="relative">Get Quote</span>
                   </button>

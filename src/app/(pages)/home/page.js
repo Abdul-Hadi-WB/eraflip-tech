@@ -3,7 +3,7 @@ import React from 'react'
 
 // Static meta title and description
 export const metadata = {
-  title: 'Welcome to My Website',
+  title: 'Eraflip Tech',
   description: 'This is a static meta description for my website homepage. Explore our services and features.',
 }
 

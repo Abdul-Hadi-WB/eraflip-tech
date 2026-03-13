@@ -199,8 +199,7 @@ const IoTSmartSolutions = () => {
     animate={isHeroInView ? "visible" : "hidden"}
     transition={{ delay: 0.3 }}
   >
-    We build <span className="text-orange-600 font-medium">intelligent connected systems</span> that 
-    automate processes, monitor operations, and transform data into actionable insights worldwide.
+    We build <span className="text-orange-600 font-medium">connected systems</span> that automate processes, monitor operations, and transform data into actionable intelligence for businesses worldwide.     
   </motion.p>
 
   <motion.div 
@@ -309,7 +308,7 @@ const IoTSmartSolutions = () => {
 
               {/* Description */}
               <p className="text-base sm:text-lg md:text-xl text-gray-700 max-w-3xl mx-auto leading-relaxed">
-                We build intelligent connected systems that automate processes, monitor operations, and transform data into actionable insights worldwide.
+                We build connected systems that automate workflows, monitor critical operations, and transform real-time data into actionable intelligence for businesses across industries. 
               </p>
             </motion.div>
           </div>
@@ -361,13 +360,13 @@ const IoTSmartSolutions = () => {
                     IoT Device Integration & App Control
                   </h3>
                   <p className="text-gray-600 leading-relaxed text-center group-hover:text-gray-800 transition-colors duration-400">
-                    Smart device connectivity with unified app control for effortless automation and management.
+                    Seamless device connectivity with unified mobile and web applications  enabling remote management, automation, and real-time control from anywhere.
                   </p>
 
                   {/* Features List */}
                   <div className="mb-8 flex-grow mt-6">
                     <div className="space-y-3">
-                      {["Device Integration", "App Control", "Automation"].map((feature, index) => (
+                      {["Device Integration", "Unified Control", "Automation System","Remote Management "].map((feature, index) => (
                         <div key={index} className="flex items-center gap-3 group/item">
                           <div className="relative">
                             <div className="absolute -inset-1 bg-orange-100/30 rounded-full opacity-0 group-hover/item:opacity-100 transition-opacity duration-300"></div>
@@ -433,13 +432,13 @@ const IoTSmartSolutions = () => {
                     Real-Time Monitoring Dashboards
                   </h3>
                   <p className="text-gray-600 leading-relaxed text-center group-hover:text-gray-800 transition-colors duration-400">
-                    Monitor systems, devices, and operations in real time with powerful data-driven dashboards.
+                    Interactive dashboards displaying live data from connected devices and systems  providing instant visibility into operations, performance, and alerts.
                   </p>
 
                   {/* Features List */}
                   <div className="mb-8 flex-grow mt-6">
                     <div className="space-y-3">
-                      {["Real-Time Monitoring", "Data Dashboards", "System Analytics"].map((feature, index) => (
+                      {["Live Monitoring", "Operational Dashboards", "Performance Metrics","Instant Alerts"].map((feature, index) => (
                         <div key={index} className="flex items-center gap-3 group/item">
                           <div className="relative">
                             <div className="absolute -inset-1 bg-blue-100/30 rounded-full opacity-0 group-hover/item:opacity-100 transition-opacity duration-300"></div>
@@ -454,7 +453,7 @@ const IoTSmartSolutions = () => {
                   </div>
 
                   {/* Action Button */}
-                  <button className="w-full py-3.5 rounded-xl bg-gradient-to-r from-blue-500 to-cyan-400 text-white font-semibold shadow-md hover:shadow-lg hover:from-blue-600 hover:to-cyan-500 transition-all duration-400 relative overflow-hidden group-hover:scale-[1.02]">
+                  <button className="w-full py-3.5 mt-6 rounded-xl bg-gradient-to-r from-blue-500 to-cyan-400 text-white font-semibold shadow-md hover:shadow-lg hover:from-blue-600 hover:to-cyan-500 transition-all duration-400 relative overflow-hidden group-hover:scale-[1.02]">
                     <div className="absolute inset-0 bg-gradient-to-r from-blue-300/20 to-cyan-300/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                     <span className="relative">Get Quote</span>
                   </button>
@@ -505,13 +504,13 @@ const IoTSmartSolutions = () => {
                     Embedded System Development
                   </h3>
                   <p className="text-gray-600 leading-relaxed text-center group-hover:text-gray-800 transition-colors duration-400">
-                    Custom embedded hardware and firmware development for efficient, real-time systems.
+                   Custom embedded hardware and firmware solutions designed for real-time processing, low power consumption, and reliable performance in industrial and consumer applications.
                   </p>
 
                   {/* Features List */}
                   <div className="mb-8 flex-grow mt-6">
                     <div className="space-y-3">
-                      {["Embedded Hardware", "Firmware Development", "Real-Time Systems"].map((feature, index) => (
+                      {["Embedded Hardware", "Firmware Engineering", "Real-Time Processing","Low-Power Design"].map((feature, index) => (
                         <div key={index} className="flex items-center gap-3 group/item">
                           <div className="relative">
                             <div className="absolute -inset-1 bg-orange-100/30 rounded-full opacity-0 group-hover/item:opacity-100 transition-opacity duration-300"></div>
@@ -577,13 +576,13 @@ const IoTSmartSolutions = () => {
                     Cloud Connectivity & Data Analytics
                   </h3>
                   <p className="text-gray-600 leading-relaxed text-center group-hover:text-gray-800 transition-colors duration-400">
-                    Integrating smart devices with the cloud while transforming data into actionable business intelligence.
+                  Secure cloud integration for IoT devices with advanced analytics that convert raw sensor data into meaningful business insights and prediction.
                   </p>
 
                   {/* Features List */}
                   <div className="mb-8 flex-grow mt-6">
                     <div className="space-y-3">
-                      {["Cloud Integration", "Data Analytics", "Business Intelligence"].map((feature, index) => (
+                      {["Cloud Integration", "Data Processing", "Business Insights","               Predictive Analytics"].map((feature, index) => (
                         <div key={index} className="flex items-center gap-3 group/item">
                           <div className="relative">
                             <div className="absolute -inset-1 bg-blue-100/30 rounded-full opacity-0 group-hover/item:opacity-100 transition-opacity duration-300"></div>
@@ -598,7 +597,7 @@ const IoTSmartSolutions = () => {
                   </div>
 
                   {/* Action Button */}
-                  <button className="w-full py-3.5 rounded-xl bg-gradient-to-r from-blue-500 to-cyan-400 text-white font-semibold shadow-md hover:shadow-lg hover:from-blue-600 hover:to-cyan-500 transition-all duration-400 relative overflow-hidden group-hover:scale-[1.02]">
+                  <button className="w-full mt-5 py-3.5 rounded-xl bg-gradient-to-r from-blue-500 to-cyan-400 text-white font-semibold shadow-md hover:shadow-lg hover:from-blue-600 hover:to-cyan-500 transition-all duration-400 relative overflow-hidden group-hover:scale-[1.02]">
                     <div className="absolute inset-0 bg-gradient-to-r from-blue-300/20 to-cyan-300/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                     <span className="relative">Get Quote</span>
                   </button>
@@ -649,13 +648,13 @@ const IoTSmartSolutions = () => {
                     Smart Home & Office Automation
                   </h3>
                   <p className="text-gray-600 leading-relaxed text-center group-hover:text-gray-800 transition-colors duration-400">
-                    Creating intelligent automation systems for homes and offices that enhance comfort and efficiency.
+                   Intelligent automation systems for residential and commercial spaces  controlling lighting, climate, security, and appliances for enhanced comfort and efficiency.
                   </p>
 
                   {/* Features List */}
                   <div className="mb-8 flex-grow mt-6">
                     <div className="space-y-3">
-                      {["Home Automation", "Office Systems", "Energy Efficiency"].map((feature, index) => (
+                      {["Lighting Control ", "limate Automation  ", "Security Integration","Energy Management"].map((feature, index) => (
                         <div key={index} className="flex items-center gap-3 group/item">
                           <div className="relative">
                             <div className="absolute -inset-1 bg-violet-100/30 rounded-full opacity-0 group-hover/item:opacity-100 transition-opacity duration-300"></div>
@@ -721,13 +720,13 @@ const IoTSmartSolutions = () => {
                     Predictive Maintenance Systems
                   </h3>
                   <p className="text-gray-600 leading-relaxed text-center group-hover:text-gray-800 transition-colors duration-400">
-                    Implementing AI-driven predictive maintenance to prevent failures and optimize performance.
+                    AI-powered maintenance solutions that analyze equipment data to predict failures, schedule timely interventions, and reduce unplanned downtime.
                   </p>
 
                   {/* Features List */}
                   <div className="mb-8 flex-grow mt-6">
                     <div className="space-y-3">
-                      {["Predictive Analytics", "Maintenance Systems", "AI Integration"].map((feature, index) => (
+                      {["Failure Prediction ", "Maintenance Scheduling ", "	AI Analytics","Downtime Reduction"].map((feature, index) => (
                         <div key={index} className="flex items-center gap-3 group/item">
                           <div className="relative">
                             <div className="absolute -inset-1 bg-emerald-100/30 rounded-full opacity-0 group-hover/item:opacity-100 transition-opacity duration-300"></div>
@@ -742,7 +741,7 @@ const IoTSmartSolutions = () => {
                   </div>
 
                   {/* Action Button */}
-                  <button className="w-full py-3.5 rounded-xl bg-gradient-to-r from-emerald-500 to-teal-400 text-white font-semibold shadow-md hover:shadow-lg hover:from-emerald-600 hover:to-teal-500 transition-all duration-400 relative overflow-hidden group-hover:scale-[1.02]">
+                  <button className="w-full py-3.5 mt-5  rounded-xl bg-gradient-to-r from-emerald-500 to-teal-400 text-white font-semibold shadow-md hover:shadow-lg hover:from-emerald-600 hover:to-teal-500 transition-all duration-400 relative overflow-hidden group-hover:scale-[1.02]">
                     <div className="absolute inset-0 bg-gradient-to-r from-emerald-300/20 to-teal-300/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                     <span className="relative">Get Quote</span>
                   </button>

@@ -187,7 +187,7 @@ const OdooDevelopmentIntegration = () => {
     animate={isHeroInView ? "visible" : "hidden"}
     transition={{ delay: 0.2 }}
   >
-    & INTEGRATION
+    & Integration
   </motion.h2>
 
   <motion.p 
@@ -197,8 +197,7 @@ const OdooDevelopmentIntegration = () => {
     animate={isHeroInView ? "visible" : "hidden"}
     transition={{ delay: 0.3 }}
   >
-    We build <span className="text-orange-600 font-medium">comprehensive Odoo solutions</span> that 
-    streamline business processes worldwide with cutting-edge ERP technology and seamless integration.
+    From discovery to deployment we execute<span className="text-orange-600 font-medium"> every stage of Odoo implementation </span>including requirement analysis, module configuration, custom development, third-party integration, data migration, user training, and ongoing support  delivering a unified ERP experience that streamlines your entire business
   </motion.p>
 
   <motion.div 
@@ -210,7 +209,7 @@ const OdooDevelopmentIntegration = () => {
   >
     <Link href="/contact-us" className="mt-auto">
       <Button className="group bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white px-4 sm:px-6 md:px-8 py-4 sm:py-5 md:py-6 text-sm sm:text-base md:text-lg rounded-xl w-full sm:w-auto">
-        Implement Odoo
+        Power Up With Odoo
       </Button>
     </Link>
   </motion.div>
@@ -303,7 +302,7 @@ const OdooDevelopmentIntegration = () => {
 
               {/* Description */}
               <p className="text-base sm:text-lg md:text-xl text-gray-700 max-w-3xl mx-auto leading-relaxed">
-                We build comprehensive Odoo solutions that streamline business processes worldwide with cutting-edge ERP technology and seamless integration.
+                We deliver end-to-end Odoo implementations that revolutionize business processes blending cutting-edge ERP technology with seamless integration to build solutions that streamline operations, boost productivity, and stand the test of time.
               </p>
             </motion.div>
           </div>
@@ -355,13 +354,13 @@ const OdooDevelopmentIntegration = () => {
                     Odoo Website & E-commerce Setup
                   </h3>
                   <p className="text-gray-600 leading-relaxed text-center group-hover:text-gray-800 transition-colors duration-400">
-                    Building powerful Odoo websites and e-commerce stores for businesses with integrated solutions.
+                    Building fully integrated Odoo websites and e-commerce stores that connect seamlessly with your ERP backend. From product catalogs to secure checkout, every store is designed to convert and scale.
                   </p>
 
                   {/* Features List */}
                   <div className="mb-8 flex-grow mt-6">
                     <div className="space-y-3">
-                      {["Odoo Websites", "E-commerce Setup", "Integrated Solutions"].map((feature, index) => (
+                      {["Custom Odoo website design & development", "Product catalog & inventory sync", "Secure payment gateway integration","Mobile-responsive & SEO-friendly"].map((feature, index) => (
                         <div key={index} className="flex items-center gap-3 group/item">
                           <div className="relative">
                             <div className="absolute -inset-1 bg-orange-100/30 rounded-full opacity-0 group-hover/item:opacity-100 transition-opacity duration-300"></div>
@@ -376,7 +375,7 @@ const OdooDevelopmentIntegration = () => {
                   </div>
 
                   {/* Action Button */}
-                  <button className="w-full py-3.5 rounded-xl bg-gradient-to-r from-orange-500 to-amber-400 text-white font-semibold shadow-md hover:shadow-lg hover:from-orange-600 hover:to-amber-500 transition-all duration-400 relative overflow-hidden group-hover:scale-[1.02]">
+                  <button className="w-full py-3.5 mt-10 rounded-xl bg-gradient-to-r from-orange-500 to-amber-400 text-white font-semibold shadow-md hover:shadow-lg hover:from-orange-600 hover:to-amber-500 transition-all duration-400 relative overflow-hidden group-hover:scale-[1.02]">
                     <div className="absolute inset-0 bg-gradient-to-r from-orange-300/20 to-amber-300/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                     <span className="relative">Get Quote</span>
                   </button>
@@ -427,13 +426,13 @@ const OdooDevelopmentIntegration = () => {
                     ERP & CRM Implementation
                   </h3>
                   <p className="text-gray-600 leading-relaxed text-center group-hover:text-gray-800 transition-colors duration-400">
-                    Streamline your business operations with efficient ERP & CRM setup and management systems.
+                   Streamlining end-to-end business operations through expert ERP and CRM implementation. We configure Odoo to match your exact workflows  ensuring seamless sales, customer management, and operational efficiency.
                   </p>
 
                   {/* Features List */}
                   <div className="mb-8 flex-grow mt-6">
                     <div className="space-y-3">
-                      {["ERP Systems", "CRM Setup", "Business Operations"].map((feature, index) => (
+                      {["Sales & quotation management", "CRM Setup & management", "Lead tracking & conversion optimization","Workflow automation & role-based access"].map((feature, index) => (
                         <div key={index} className="flex items-center gap-3 group/item">
                           <div className="relative">
                             <div className="absolute -inset-1 bg-blue-100/30 rounded-full opacity-0 group-hover/item:opacity-100 transition-opacity duration-300"></div>
@@ -499,13 +498,13 @@ const OdooDevelopmentIntegration = () => {
                     Module Customization & Third-Party Integration
                   </h3>
                   <p className="text-gray-600 leading-relaxed text-center group-hover:text-gray-800 transition-colors duration-400">
-                    Enhancing functionality through tailored modules and external app integration solutions.
+                    Extending Odoo's capabilities through tailored module development and seamless third-party integrations. We build custom functionality that fits your unique business needs and connect Odoo with the tools you already use.
                   </p>
 
                   {/* Features List */}
                   <div className="mb-8 flex-grow mt-6">
                     <div className="space-y-3">
-                      {["Custom Modules", "App Integration", "Functionality"].map((feature, index) => (
+                      {["Custom Odoo module development", "Third-party API integrations", "Legacy system integration","Payment gateway connectivity"].map((feature, index) => (
                         <div key={index} className="flex items-center gap-3 group/item">
                           <div className="relative">
                             <div className="absolute -inset-1 bg-orange-100/30 rounded-full opacity-0 group-hover/item:opacity-100 transition-opacity duration-300"></div>
@@ -520,7 +519,7 @@ const OdooDevelopmentIntegration = () => {
                   </div>
 
                   {/* Action Button */}
-                  <button className="w-full py-3.5 rounded-xl bg-gradient-to-r from-orange-500 to-amber-400 text-white font-semibold shadow-md hover:shadow-lg hover:from-orange-600 hover:to-amber-500 transition-all duration-400 relative overflow-hidden group-hover:scale-[1.02]">
+                  <button className="w-full py-3.5 mt-18 rounded-xl bg-gradient-to-r from-orange-500 to-amber-400 text-white font-semibold shadow-md hover:shadow-lg hover:from-orange-600 hover:to-amber-500 transition-all duration-400 relative overflow-hidden group-hover:scale-[1.02]">
                     <div className="absolute inset-0 bg-gradient-to-r from-orange-300/20 to-amber-300/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                     <span className="relative">Get Quote</span>
                   </button>
@@ -571,13 +570,13 @@ const OdooDevelopmentIntegration = () => {
                     Accounting, HR & Inventory Systems
                   </h3>
                   <p className="text-gray-600 leading-relaxed text-center group-hover:text-gray-800 transition-colors duration-400">
-                    Automating workflows through unified accounting, HR, and inventory management modules.
+                    Automating core business functions through unified Odoo modules. From financial management to human resources and inventory control  we implement integrated systems that work together seamlessly.
                   </p>
 
                   {/* Features List */}
                   <div className="mb-8 flex-grow mt-6">
                     <div className="space-y-3">
-                      {["Accounting", "HR Systems", "Inventory Management"].map((feature, index) => (
+                      {["Odoo Accounting setup & configuration", "HR management & payroll systems", "Purchase & procurement automation","Real-time stock tracking"].map((feature, index) => (
                         <div key={index} className="flex items-center gap-3 group/item">
                           <div className="relative">
                             <div className="absolute -inset-1 bg-blue-100/30 rounded-full opacity-0 group-hover/item:opacity-100 transition-opacity duration-300"></div>
@@ -643,13 +642,13 @@ const OdooDevelopmentIntegration = () => {
                     Maintenance, Support & Training
                   </h3>
                   <p className="text-gray-600 leading-relaxed text-center group-hover:text-gray-800 transition-colors duration-400">
-                    Reliable system maintenance, expert support, and comprehensive training programs.
+                   We deliver Odoo solutions built for long-term success. Through proactive maintenance, responsive support, and expert training, we ensure your system consistently drives peak performance.
                   </p>
 
                   {/* Features List */}
                   <div className="mb-8 flex-grow mt-6">
                     <div className="space-y-3">
-                      {["System Maintenance", "Expert Support", "Training Programs"].map((feature, index) => (
+                      {["System updates & version upgrades", "Bug fixes & performance optimization", "	Technical support & troubleshooting","Security patches & monitoring"].map((feature, index) => (
                         <div key={index} className="flex items-center gap-3 group/item">
                           <div className="relative">
                             <div className="absolute -inset-1 bg-violet-100/30 rounded-full opacity-0 group-hover/item:opacity-100 transition-opacity duration-300"></div>
@@ -664,7 +663,7 @@ const OdooDevelopmentIntegration = () => {
                   </div>
 
                   {/* Action Button */}
-                  <button className="w-full py-3.5 rounded-xl bg-gradient-to-r from-violet-500 to-purple-400 text-white font-semibold shadow-md hover:shadow-lg hover:from-violet-600 hover:to-purple-500 transition-all duration-400 relative overflow-hidden group-hover:scale-[1.02]">
+                  <button className="w-full py-3.5 mt-6 rounded-xl bg-gradient-to-r from-violet-500 to-purple-400 text-white font-semibold shadow-md hover:shadow-lg hover:from-violet-600 hover:to-purple-500 transition-all duration-400 relative overflow-hidden group-hover:scale-[1.02]">
                     <div className="absolute inset-0 bg-gradient-to-r from-violet-300/20 to-purple-300/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                     <span className="relative">Get Quote</span>
                   </button>
@@ -715,13 +714,13 @@ const OdooDevelopmentIntegration = () => {
                     Reporting & Analytics Dashboard
                   </h3>
                   <p className="text-gray-600 leading-relaxed text-center group-hover:text-gray-800 transition-colors duration-400">
-                    Advanced reporting and analytics dashboards for business intelligence and insights.
+                    Transforming raw data into actionable business intelligence. We build custom Odoo dashboards and reports that give you real-time visibility into your operations driving smarter strategies and faster execution.
                   </p>
 
                   {/* Features List */}
                   <div className="mb-8 flex-grow mt-6">
                     <div className="space-y-3">
-                      {["Advanced Reporting", "Analytics Dashboard", "Business Insights"].map((feature, index) => (
+                      {["Real-Time Analytics", "Interactive Dashboards", "Custom Reports","Business Intelligence"].map((feature, index) => (
                         <div key={index} className="flex items-center gap-3 group/item">
                           <div className="relative">
                             <div className="absolute -inset-1 bg-emerald-100/30 rounded-full opacity-0 group-hover/item:opacity-100 transition-opacity duration-300"></div>
@@ -736,7 +735,7 @@ const OdooDevelopmentIntegration = () => {
                   </div>
 
                   {/* Action Button */}
-                  <button className="w-full py-3.5 rounded-xl bg-gradient-to-r from-emerald-500 to-teal-400 text-white font-semibold shadow-md hover:shadow-lg hover:from-emerald-600 hover:to-teal-500 transition-all duration-400 relative overflow-hidden group-hover:scale-[1.02]">
+                  <button className="w-full py-3.5 rounded-xl mt-6 bg-gradient-to-r from-emerald-500 to-teal-400 text-white font-semibold shadow-md hover:shadow-lg hover:from-emerald-600 hover:to-teal-500 transition-all duration-400 relative overflow-hidden group-hover:scale-[1.02]">
                     <div className="absolute inset-0 bg-gradient-to-r from-emerald-300/20 to-teal-300/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                     <span className="relative">Get Quote</span>
                   </button>
